@@ -22,7 +22,7 @@ class HttpTest():
         try:
             # 
             url0 = 'http://localhost:8886/'
-            path = '/Users/demon/PycharmProjects/demo/venv/excel/httptest.xls'
+            path = './httptest.xls'
             print(self.sign_md5())
             sigRes = self.sign_md5()
             header = {
