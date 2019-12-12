@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country name="China" value="2333">
+    <city name="北京">
+        <town>朝阳 </town>
+        <town>东城 </town>
+        <town>密云</town>
+    </city>
+    <city name="河北">
+        <town>石家庄 </town>
+        <town>保定</town>
+        <town>雄安</town>
+    </city>
+    <city name="陕西">
+        <town>西安</town>
+        <town>咸阳</town>
+    </city>
+    <city name="山西" weather="wind">
+        <town name="太原">
+            太原
+            <love>煤</love>
+        </town>
+        <town>大同</town>
+    </city>
+    <city name="unknown">UnKnown</city>
+</country>

@@ -8,5 +8,3 @@ else:
     pass
 finally:
     pass
-else:
-    pass

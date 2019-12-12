@@ -1,0 +1,46 @@
+python调用另一个.py文件中的类和函数
+同一文件夹下的调用
+
+1.调用函数
+
+A.py文件如下：
+def add(x,y):
+    print('和为：%d'%(x+y))
+
+在B.py文件中调用A.py的add函数如下：
+import A
+A.add(1,2)
+或
+from A import add
+add(1,2)
+
+2.调用类
+
+A.py文件如下:
+class A:
+    def __init__(self,xx,yy):
+        self.x=xx
+        self.y=yy
+    def add(self):
+        print("x和y的和为：%d"%(self.x+self.y))
+
+在B.py文件中调用A.py的add函数如下：
+from A import A
+a=A(2,3)
+a.add()
+或
+import A
+a=A.A(2,3)
+a.add()
+
+在不同文件夹下调用
+
+A.py文件的文件路径为：C:\AmyPython\Test1
+
+B.py中调用A.py文件：
+import sys
+sys.path.append(r'C:\AmyPython\Test1')
+#python import模块时， 是在sys.path里按顺序查找的。sys.path是一个列表，里面以字符串的形式存储了许多路径。使用A.py文件中的函数需要先将他的文件路径放到sys.path中
+import A
+a=A.A(2,3)
+a.add()

@@ -3,12 +3,12 @@
 
 
 
-#mutable
+#mutable : 列表，字典
 la=[1,2,3]
 la[2]=5
 print(la)
 
-#immutable
+#immutable : 整数、字符串、元组
 a=[1,2,3]
 a="Runoob"
 a = 5 
