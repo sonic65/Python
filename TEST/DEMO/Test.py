@@ -3,7 +3,7 @@ import unittest
 
 class TestCount(unittest.TestCase):
     def setUp(self):
-       self.number=10
+       self.number=1
 
     def tearDown(self):
        pass
@@ -19,11 +19,11 @@ class TestCount(unittest.TestCase):
     
     def test_mul(self):    
         print("验证A.mul")
-        self.assertEqual(22,A.mul(1,2),"1*2=2 Right")
+        self.assertEqual(2,A.mul(1,2),"1*2=2 Right")
 
     def test_div(self):        
         print("验证A.div")
-        self.assertEqual(0.52,A.div(1,2),"1/2=0.5 Right")
+        self.assertEqual(0.5,A.div(1,2),"1/2=0.5 Right")
 
 
 

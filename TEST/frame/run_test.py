@@ -29,7 +29,7 @@ if __name__ == '__main__':
         # 测试报告的标题
         title=u"登录网易邮箱测试报告",
         # 测试报告的副标题
-        description=u'用例执行情况（win7 64位）'
+        description=u'用例执行情况（win10 64位）'
     )
     #执行用例
     runner.run(discover)
