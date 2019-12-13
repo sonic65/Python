@@ -17,9 +17,9 @@ class Login(unittest.TestCase):
         login = driver.find_element_by_css_selector(".c-btn")
 
         #如下操作可以使setUp中的变量被其他模块调用
-        self.name=name
-        self.password=password
-        self.login=login
+        self.name = name
+        self.password = password
+        self.login = login
 
     def tearDown(self):
         self.driver.quit()
