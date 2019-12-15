@@ -189,11 +189,11 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>登录网易邮箱测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-12-13 20:03:45</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:18.447461</p>
-<p class='attribute'><strong>Status:</strong> Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-12-13 22:45:14</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:30.849933</p>
+<p class='attribute'><strong>Status:</strong> Failure 1 Error 1</p>
 
-<p class='description'>用例执行情况（win7 64位）</p>
+<p class='description'>用例执行情况（win10 64位）</p>
 </div>
 
 
@@ -225,8 +225,8 @@ function showOutput(id, name) {
     <td>test_login.Login</td>
     <td>2</td>
     <td>0</td>
-    <td>0</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
@@ -246,36 +246,32 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 16, in setUp
-    password = driver.find_element_by_class_name("op_email3_password")
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 564, in find_element_by_class_name
-    return self.find_element(by=By.CLASS_NAME, value=name)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+  File "E:\Work\Project\Python\DEMO\frame\testcase\test_login.py", line 50, in test_null_psw_login
+    self.login.click()
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
     self.error_handler.check_response(response)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=79.0.3945.79)
-  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=78.0.3904.108)
 
 Traceback (most recent call last):
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 16, in setUp
-    password = driver.find_element_by_class_name("op_email3_password")
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 564, in find_element_by_class_name
-    return self.find_element(by=By.CLASS_NAME, value=name)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+  File "E:\Work\Project\Python\DEMO\frame\testcase\test_login.py", line 50, in test_null_psw_login
+    self.login.click()
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
     self.error_handler.check_response(response)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+  File "C:\Users\柠檬草\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=79.0.3945.79)
-  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=78.0.3904.108)
 
 
 
@@ -287,12 +283,12 @@ from unknown error: web view not found
 </tr>
 
 <tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_right_login</div></td>
+    <td class='failCase'><div class='testcase'>test_right_login</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
+        fail</a>
 
     <div id='div_ft1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
@@ -302,35 +298,19 @@ from unknown error: web view not found
         <pre>
         
 ft1.2: Traceback (most recent call last):
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 42, in test_right_login
-    self.switch_window()
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 30, in switch_window
-    self.driver.switch_to.window(handle)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/switch_to.py", line 115, in window
-    self._driver.execute(Command.SWITCH_TO_WINDOW, data)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window
-  (Session info: chrome=79.0.3945.79)
-  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
-
+  File "E:\Work\Project\Python\DEMO\frame\testcase\test_login.py", line 44, in test_right_login
+    self.assertEqual(self.driver.title,"网易邮箱6.0版","登录失败")
+AssertionError: '网易帐号中心 &gt; 用户验证' != '网易邮箱6.0版'
+- 网易帐号中心 &gt; 用户验证
++ 网易邮箱6.0版
+ : 登录失败
 Traceback (most recent call last):
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 42, in test_right_login
-    self.switch_window()
-  File "/Users/sonic/Project/Python/DEMO/frame/testcase/test_login.py", line 30, in switch_window
-    self.driver.switch_to.window(handle)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/switch_to.py", line 115, in window
-    self._driver.execute(Command.SWITCH_TO_WINDOW, data)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window
-  (Session info: chrome=79.0.3945.79)
-  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
-
+  File "E:\Work\Project\Python\DEMO\frame\testcase\test_login.py", line 44, in test_right_login
+    self.assertEqual(self.driver.title,"网易邮箱6.0版","登录失败")
+AssertionError: '网易帐号中心 &gt; 用户验证' != '网易邮箱6.0版'
+- 网易帐号中心 &gt; 用户验证
++ 网易邮箱6.0版
+ : 登录失败
 
 
         </pre>
@@ -344,8 +324,8 @@ selenium.common.exceptions.NoSuchWindowException: Message: no such window
     <td>Total</td>
     <td>2</td>
     <td>0</td>
-    <td>0</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>

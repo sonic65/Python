@@ -12,14 +12,15 @@ class Login(unittest.TestCase):
         driver.find_element_by_id("kw").send_keys("163邮箱登录")
         driver.find_element_by_id("su").click()
 
+        #定义登陆页面元素
         name = driver.find_element_by_id("op_email3_username")
         password = driver.find_element_by_class_name("op_email3_password")
         login = driver.find_element_by_css_selector(".c-btn")
 
         #如下操作可以使setUp中的变量被其他模块调用
-        self.Name = name
-        self.password = password
-        self.login = login
+        self.name=name
+        self.password=password
+        self.login=login
 
     def tearDown(self):
         self.driver.quit()
@@ -35,7 +36,7 @@ class Login(unittest.TestCase):
     #成功登录
     def test_right_login(self):
         #账号密码自行填写
-        self.Name.send_keys("xxx")
+        self.name.send_keys("xxx")
         self.password.send_keys("xxx")
         self.login.click()
 
@@ -45,7 +46,7 @@ class Login(unittest.TestCase):
 
     #密码为空登录
     def test_null_psw_login(self):
-        self.Name.send_keys("xxx")
+        self.name.send_keys("xxx")
         time.sleep(3)
         self.login.click()
         self.switch_window()

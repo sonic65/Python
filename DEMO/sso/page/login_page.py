@@ -11,7 +11,7 @@ sms = '//*[@id="app"]/div/section/div/div/section/section/div/div[2]/input'
 host = "https://sso.faas.beta.elenet.me/euc/#/"
 
 class lonin_page(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
 
         driver=webdriver.Chrome()
         driver.implicitly_wait(5)

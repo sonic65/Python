@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     suit=unittest.TestSuite()
     #suit.addTest(lonin_page("login"))
-    suit.addTest(lonin_page.login("pw_btn"))
+    suit.addTest(lonin_page.login(""))
     # suit.addTest(lonin_page.login2("pw_btn"))
 
 
