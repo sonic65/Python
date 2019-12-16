@@ -16,10 +16,6 @@ class BaiduSearch(object):
     def quit_baidu(self):
         self.basepage.quit_browser()
 
-# if __name__ == "__main__":
-#     pass        
-          
-# BaiduSearch.open_baidu("")
+
 baidu = BaiduSearch()
 baidu.open_baidu()
-baidu.quit_baidu()

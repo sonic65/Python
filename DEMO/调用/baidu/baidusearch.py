@@ -1,13 +1,12 @@
-# coding=utf-8
+
 import time
 from selenium import webdriver
  
  
 class BaiduSearch(object):
     driver = webdriver.Chrome()
-    driver.maximize_window()
     driver.implicitly_wait(5)
- 
+
     def open_baidu(self):
         self.driver.get("https://www.baidu.com")
         time.sleep(1)
@@ -23,7 +22,7 @@ class BaiduSearch(object):
         except Exception as e:
             print ('Test fail.')
         self.driver.quit()
-
-baidu = BaiduSearch()
-baidu.open_baidu()
-baidu.test_search()
+ 
+# baidu = BaiduSearch()
+# baidu.open_baidu()
+# baidu.test_search()

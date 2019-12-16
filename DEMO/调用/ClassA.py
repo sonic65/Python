@@ -1,4 +1,4 @@
-class AA:
+class ClassAAA:
 
     i = 123
     def __init__(self,xx,yy):

@@ -1,15 +1,15 @@
 '''
-from ClassA import AA
+from classA import ClasssAAA
 
-a=AA(2,3)
+a=ClassAAA(2,3)
 a.add()
 
 #or
 
 '''
 
-import ClassA
+import classA
 
-a = ClassA.AA(2,3)
-a.add()
-print(a.i)
+a = classA.ClassAAA(2,3) #实例化一个ClassAAA类
+a.add() #调用classA文件的ClassAAA类的add()
+print(a.i) #调用classA文件的ClassAAA类的i

@@ -59,5 +59,8 @@ class Lonin_Page(unittest.TestCase):
         except Exception as e:
             print('failure',format(e))
 
+bilibili = Lonin_Page()
+bilibili.setUp()            
+
 
     
