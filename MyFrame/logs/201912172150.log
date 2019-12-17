@@ -1,0 +1,12 @@
+2019-12-17 21:50:12,854 - root - INFO - you had select Chrome browser.
+2019-12-17 21:50:12,854 - root - INFO - The test URL is: http://bilibili.com
+2019-12-17 21:50:18,203 - root - INFO - Open url: http://bilibili.com
+2019-12-17 21:50:18,204 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 21:50:21,236 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 
+2019-12-17 21:50:21,236 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 
+2019-12-17 21:50:56,540 - root - INFO - you had select Chrome browser.
+2019-12-17 21:50:56,541 - root - INFO - The test URL is: http://bilibili.com
+2019-12-17 21:51:02,717 - root - INFO - Open url: http://bilibili.com
+2019-12-17 21:51:02,721 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 21:51:05,752 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 
+2019-12-17 21:51:05,752 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 

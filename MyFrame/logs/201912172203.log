@@ -1,0 +1,14 @@
+2019-12-17 22:03:30,797 - root - INFO - you had select Chrome browser.
+2019-12-17 22:03:30,798 - root - INFO - The test URL is: http://bilibili.com
+2019-12-17 22:03:46,873 - root - INFO - Open url: http://bilibili.com
+2019-12-17 22:03:46,876 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 22:04:02,947 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login-username"]"}
+  (Session info: chrome=79.0.3945.79)
+  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+
+2019-12-17 22:04:02,947 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="login-username"]"}
+  (Session info: chrome=79.0.3945.79)
+  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+
+2019-12-17 22:04:05,515 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-12-17 22:04:05,515 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

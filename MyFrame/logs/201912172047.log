@@ -1,0 +1,10 @@
+2019-12-17 20:47:24,845 - root - INFO - you had select Chrome browser.
+2019-12-17 20:47:24,845 - root - INFO - The test URL is: http://bing.com
+2019-12-17 20:47:30,023 - root - INFO - Open url: http://bing.com
+2019-12-17 20:47:30,035 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 20:47:30,179 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 20:47:30,179 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 20:47:30,612 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-17 20:47:30,612 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-17 20:47:34,786 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-12-17 20:47:34,786 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

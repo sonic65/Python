@@ -1,0 +1,18 @@
+2019-12-17 23:31:13,739 - root - INFO - you had select Chrome browser.
+2019-12-17 23:31:13,739 - root - INFO - The test URL is: http://bing.com
+2019-12-17 23:31:19,016 - root - INFO - Open url: http://bing.com
+2019-12-17 23:31:19,036 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 23:31:20,072 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:20,072 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:20,300 - BasePage - INFO - Had type ' 123 ' in inputBox
+2019-12-17 23:31:20,300 - BasePage - INFO - Had type ' 123 ' in inputBox
+2019-12-17 23:31:23,323 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:23,323 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:23,335 - BasePage - INFO - Clear text in input box before typing.
+2019-12-17 23:31:23,335 - BasePage - INFO - Clear text in input box before typing.
+2019-12-17 23:31:26,352 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:26,352 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 23:31:26,394 - BasePage - INFO - Had type ' 333 ' in inputBox
+2019-12-17 23:31:26,394 - BasePage - INFO - Had type ' 333 ' in inputBox
+2019-12-17 23:31:29,426 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_go"] 
+2019-12-17 23:31:29,426 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_go"] 

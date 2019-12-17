@@ -1,0 +1,10 @@
+2019-12-17 22:55:48,592 - root - INFO - you had select Chrome browser.
+2019-12-17 22:55:48,593 - root - INFO - The test URL is: http://bing.com
+2019-12-17 22:55:55,025 - root - INFO - Open url: http://bing.com
+2019-12-17 22:55:55,033 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 22:55:56,069 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 22:55:56,069 - BasePage - INFO - Had find the element '  ' successful by id via value: sb_form_q 
+2019-12-17 22:55:56,186 - BasePage - INFO - Had type ' 123 ' in inputBox
+2019-12-17 22:55:56,186 - BasePage - INFO - Had type ' 123 ' in inputBox
+2019-12-17 22:55:57,223 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 
+2019-12-17 22:55:57,223 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 

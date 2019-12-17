@@ -1,0 +1,8 @@
+2019-12-17 21:49:26,410 - root - INFO - you had select Chrome browser.
+2019-12-17 21:49:26,411 - root - INFO - The test URL is: http://bing.com
+2019-12-17 21:49:31,781 - root - INFO - Open url: http://bing.com
+2019-12-17 21:49:31,783 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 21:49:49,769 - root - INFO - you had select Chrome browser.
+2019-12-17 21:49:49,770 - root - INFO - The test URL is: http://bilibili.com
+2019-12-17 21:49:54,175 - root - INFO - Open url: http://bilibili.com
+2019-12-17 21:49:54,177 - root - INFO - Set implicitly wait 10 seconds.

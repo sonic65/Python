@@ -1,0 +1,10 @@
+2019-12-17 23:41:31,802 - root - INFO - you had select Chrome browser.
+2019-12-17 23:41:31,803 - root - INFO - The test URL is: http://bing.com
+2019-12-17 23:41:38,268 - root - INFO - Open url: http://bing.com
+2019-12-17 23:41:38,273 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-17 23:41:39,454 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-17 23:41:39,454 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-17 23:41:40,101 - BasePage - INFO - Had type ' 333 ' in inputBox
+2019-12-17 23:41:40,101 - BasePage - INFO - Had type ' 333 ' in inputBox
+2019-12-17 23:41:43,128 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_go"] 
+2019-12-17 23:41:43,128 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_go"] 

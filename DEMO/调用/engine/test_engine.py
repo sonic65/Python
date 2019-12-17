@@ -8,4 +8,4 @@ class TestEngine(object):
         driver = browserengine.chose_browser()
 
 ts = TestEngine()
-ts.open_browser()        
+ts.open_browser()           

@@ -1,0 +1,4 @@
+2019-12-17 18:01:15,040 - root - INFO - you had select Chrome browser.
+2019-12-17 18:01:15,040 - root - INFO - The test URL is: https://www.baidu.com
+2019-12-17 18:01:24,910 - root - INFO - Open url: https://www.baidu.com
+2019-12-17 18:01:24,913 - root - INFO - Set implicitly wait 10 seconds.
