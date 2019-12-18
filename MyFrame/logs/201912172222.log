@@ -1,6 +1,0 @@
-2019-12-17 22:22:13,390 - root - INFO - you had select Chrome browser.
-2019-12-17 22:22:13,391 - root - INFO - The test URL is: http://bilibili.com
-2019-12-17 22:22:20,382 - root - INFO - Open url: http://bilibili.com
-2019-12-17 22:22:20,383 - root - INFO - Set implicitly wait 10 seconds.
-2019-12-17 22:22:23,424 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 
-2019-12-17 22:22:23,424 - BasePage - INFO - Had find the element ' 登录 ' successful by xpath via value: //*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a 

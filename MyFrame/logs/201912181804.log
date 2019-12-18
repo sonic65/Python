@@ -1,0 +1,16 @@
+2019-12-18 18:04:12,035 - root - INFO - you had select Chrome browser.
+2019-12-18 18:04:12,035 - root - INFO - The test URL is: http://bing.com
+2019-12-18 18:04:22,166 - root - INFO - Open url: http://bing.com
+2019-12-18 18:04:22,167 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-18 18:04:25,218 - BasePage - INFO - Had find the element ' 学术 ' successful by xpath via value: //*[@id="scpl2"] 
+2019-12-18 18:04:25,218 - BasePage - INFO - Had find the element ' 学术 ' successful by xpath via value: //*[@id="scpl2"] 
+2019-12-18 18:04:25,226 - BasePage - INFO - The element ' 学术 ' was clicked.
+2019-12-18 18:04:25,226 - BasePage - INFO - The element ' 学术 ' was clicked.
+2019-12-18 18:04:29,052 - BasePage - INFO - Sleep for 2 seconds
+2019-12-18 18:04:29,052 - BasePage - INFO - Sleep for 2 seconds
+2019-12-18 18:04:29,511 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))': /session/bfb5f6dfd3c5361644cb043871bf9b0f/title
+2019-12-18 18:04:29,513 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10781e450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bfb5f6dfd3c5361644cb043871bf9b0f/title
+2019-12-18 18:04:29,514 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10781e410>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bfb5f6dfd3c5361644cb043871bf9b0f/title
+2019-12-18 18:04:29,516 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10781e490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bfb5f6dfd3c5361644cb043871bf9b0f
+2019-12-18 18:04:29,548 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1079bf910>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bfb5f6dfd3c5361644cb043871bf9b0f
+2019-12-18 18:04:29,550 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1079bfa10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/bfb5f6dfd3c5361644cb043871bf9b0f

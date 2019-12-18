@@ -15,9 +15,12 @@ class HomePage(BasePage):
     text1 = 'selenium'
     text2 = 'python'
  
-    def type_search(self, text):
-        self.type(self.input_box, text)
-
+    def type_search1(self, text):
+        self.type(self.input_box, self.text1)
+    
+    def type_search2(self, text):
+        self.type(self.input_box, self.text2)
+    
     def est_click(self):
         self.click(self.est_en)
 
@@ -29,7 +32,15 @@ class HomePage(BasePage):
  
     def send_submit_btn(self):
         self.click(self.search_submit_btn)
-        time.sleep(5)
+
+    def page_wait(self):
+        self.wait(5)    
+    
+    def get_screen(self):
+        self.get_windows_img()
+
+        self.driver.find_element_by_xpath("//*[@id='u1']/a[@name='tj_trnews']").click()
+    
 
     # def get_result(self):
     #     self.click(self.search_btn)

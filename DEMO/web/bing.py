@@ -22,14 +22,15 @@ class HomePage():
 
         driver.find_element_by_xpath('//*[@id="sb_form_q"]').send_keys("333")
         time.sleep(2)
-        driver.find_element_by_xpath('//*[@id="sb_form_go"]').click()
+        c = driver.find_element_by_xpath('//*[@id="sb_form_go"]')
+        c.click()
         time.sleep(1)
 
         driver.quit()
 
 
     # def get_result(self):
-    #     self.click(self.search_btn)
+    # self.click(self.search_btn)
 
 t = HomePage()
 t.search_btn()

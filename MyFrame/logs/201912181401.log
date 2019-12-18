@@ -1,0 +1,24 @@
+2019-12-18 14:01:12,191 - root - INFO - you had select Chrome browser.
+2019-12-18 14:01:12,191 - root - INFO - The test URL is: http://bing.com
+2019-12-18 14:01:30,676 - root - INFO - Open url: http://bing.com
+2019-12-18 14:01:30,716 - root - INFO - Set implicitly wait 10 seconds.
+2019-12-18 14:01:31,004 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:31,004 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:31,430 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-18 14:01:31,430 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-18 14:01:31,476 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:31,476 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:31,487 - BasePage - INFO - Clear text in input box before typing.
+2019-12-18 14:01:31,487 - BasePage - INFO - Clear text in input box before typing.
+2019-12-18 14:01:31,556 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 
+2019-12-18 14:01:31,556 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 
+2019-12-18 14:01:31,567 - BasePage - INFO - The element ' 国际版 ' was clicked.
+2019-12-18 14:01:31,567 - BasePage - INFO - The element ' 国际版 ' was clicked.
+2019-12-18 14:01:32,418 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:32,418 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-18 14:01:32,533 - BasePage - INFO - Had type ' python ' in inputBox
+2019-12-18 14:01:32,533 - BasePage - INFO - Had type ' python ' in inputBox
+2019-12-18 14:01:32,585 - BasePage - INFO - Had find the element '  ' successful by xpath via value: /html/body/table/tbody/tr/td/div/div[2]/div[3]/form/div/div[1]/input 
+2019-12-18 14:01:32,585 - BasePage - INFO - Had find the element '  ' successful by xpath via value: /html/body/table/tbody/tr/td/div/div[2]/div[3]/form/div/div[1]/input 
+2019-12-18 14:01:32,619 - BasePage - INFO - The element '  ' was clicked.
+2019-12-18 14:01:32,619 - BasePage - INFO - The element '  ' was clicked.
