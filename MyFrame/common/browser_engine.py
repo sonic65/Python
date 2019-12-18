@@ -5,7 +5,7 @@ import os
 from logs.logger import Logger
 
 
-logger = Logger(logger="").getlog()
+logger = Logger(logger="BrowserEngine").getlog()
 
 class BrowserEngine(object):
 
