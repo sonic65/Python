@@ -1,0 +1,8 @@
+2019-12-19 12:58:44,920 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-19 12:58:44,921 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-19 12:58:49,340 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-19 12:58:49,342 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-19 12:58:49,491 - BasePage - INFO - Had find the element ' 地图 ' successful by xpath via value: //*[@id="scpl4"] 
+2019-12-19 12:58:49,591 - BasePage - INFO - The element ' 地图 ' was clicked.
+2019-12-19 12:58:54,513 - BasePage - INFO - Sleep for 2 seconds
+2019-12-19 12:58:58,545 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

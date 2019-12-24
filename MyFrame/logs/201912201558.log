@@ -1,0 +1,8 @@
+2019-12-20 15:58:46,616 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:58:46,616 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:58:55,126 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:58:55,128 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:58:55,438 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:58:55,438 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:58:59,933 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:58:59,937 - BrowserEngine - INFO - Set implicitly wait 10 seconds.

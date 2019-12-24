@@ -2,7 +2,9 @@ from selenium import webdriver
 import configparser
 import os
 
-from logs.logger import Logger
+import sys   
+sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+from common.logger import Logger
 
 
 logger = Logger(logger="BrowserEngine").getlog()
@@ -23,7 +25,7 @@ class BrowserEngine(object):
     def open_browser(self,driver):
 
         config = configparser.ConfigParser()
-        config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
+        config_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/common/config.ini'
         config.read(config_path)
         browser_type = config.get("browserType","browserName")
         logger.info("you had select %s browser."% browser_type)

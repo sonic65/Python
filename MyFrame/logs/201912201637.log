@@ -1,0 +1,29 @@
+2019-12-20 16:37:04,862 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 16:37:04,862 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 16:37:08,654 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 16:37:08,656 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 16:37:08,689 - BasePage - INFO - Had find the element ' 学术 ' successful by xpath via value: //*[@id="scpl2"] 
+2019-12-20 16:37:08,701 - BasePage - INFO - The element ' 学术 ' was clicked.
+2019-12-20 16:37:16,483 - BasePage - INFO - Sleep for 2 seconds
+2019-12-20 16:37:20,413 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 16:37:20,413 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 16:37:27,326 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 16:37:27,350 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 16:37:27,509 - BasePage - INFO - Had find the element ' 地图 ' successful by xpath via value: //*[@id="scpl4"] 
+2019-12-20 16:37:27,582 - BasePage - INFO - The element ' 地图 ' was clicked.
+2019-12-20 16:37:34,305 - BasePage - INFO - Sleep for 2 seconds
+2019-12-20 16:37:37,834 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 16:37:37,835 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 16:37:42,299 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 16:37:42,302 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 16:37:42,428 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 16:37:42,636 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-20 16:37:42,792 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 16:37:42,812 - BasePage - INFO - Clear text in input box before typing.
+2019-12-20 16:37:42,900 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 
+2019-12-20 16:37:42,910 - BasePage - INFO - The element ' 国际版 ' was clicked.
+2019-12-20 16:37:43,602 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 16:37:44,827 - BasePage - INFO - Had type ' python ' in inputBox
+2019-12-20 16:37:44,909 - BasePage - INFO - Had find the element '  ' successful by xpath via value: /html/body/table/tbody/tr/td/div/div[2]/div[3]/form/div/div[1]/input 
+2019-12-20 16:37:44,950 - BasePage - INFO - The element '  ' was clicked.
+2019-12-20 16:37:50,045 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

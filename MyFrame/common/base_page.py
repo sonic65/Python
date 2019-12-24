@@ -2,7 +2,9 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 import os.path
-from logs.logger import Logger
+import sys   
+sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+from logger import Logger
  
 # create a logger instance
 logger = Logger(logger="BasePage").getlog()
@@ -48,7 +50,7 @@ class BasePage(object):
         """
         在这里我们把file_path这个参数写死，直接保存到我们项目根目录的一个文件夹.\Screenshots下
         """
-        screen_path = os.path.dirname(os.path.abspath('.')) + '/screenshots/'
+        screen_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/screenshots/'
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
         screen_name = screen_path + rq + '.png'
         try:
