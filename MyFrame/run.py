@@ -9,7 +9,7 @@ from common.HTMLTestRunner import HTMLTestRunner
 #定义要执行的测试用例的路径
 test_dir = './testsuites'
 #定义要执行的测试用例的路径和名称格式
-suite = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
+suite = unittest.defaultTestLoader.discover(test_dir, pattern='test_bing_search*.py')
 
 #test_*.py的意思是，./testcase路径下文件名称格式为test_*.py的文件，*为任意匹配，路径下有多少的test_*.py格式的文件，就依次执行几个
 #定义测试报告的名称和存储位置
