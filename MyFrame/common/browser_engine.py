@@ -5,7 +5,7 @@ import os
 from logs.logger import Logger
 
 
-logger = Logger(logger="BrowserEngine").getlog()
+logger = Logger(logger="").getlog()
 
 class BrowserEngine(object):
 
@@ -23,7 +23,7 @@ class BrowserEngine(object):
     def open_browser(self,driver):
 
         config = configparser.ConfigParser()
-        config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
+        config_path = os.path.dirname(os.path.abspath('.')) + 'common/config.ini'
         config.read(config_path)
         browser_type = config.get("browserType","browserName")
         logger.info("you had select %s browser."% browser_type)
@@ -35,7 +35,7 @@ class BrowserEngine(object):
         elif browser_type == 'Chrome':
             driver = webdriver.Chrome()
         elif browser_type == 'IE':
-            driver = webdriver.Ie()
+            driver = webdriver.IE()
         else: driver = webdriver.Chrome()
 
         driver.get(url)

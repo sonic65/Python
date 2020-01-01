@@ -14,12 +14,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="790" />
-  </component>
   <component name="ProjectId" id="1Uyyo3W0QRV7NivsQnWyuFeFcjP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -109,6 +103,8 @@
       <updated>1574061404743</updated>
       <workItem from="1574061405940" duration="19000" />
       <workItem from="1576343311074" duration="145000" />
+      <workItem from="1577090994696" duration="27000" />
+      <workItem from="1577243114488" duration="125000" />
     </task>
     <servers />
   </component>
@@ -124,10 +120,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="137" key="#test/0.0.1920.1050@0.0.1920.1050" timestamp="1576343443389" />
-    <state x="645" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1576343313061">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="645" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1577243124607">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="645" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576343313061" />
+    <state x="645" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577091015598" />
+    <state x="645" y="358" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577243124607" />
   </component>
   <component name="masterDetails">
     <states>

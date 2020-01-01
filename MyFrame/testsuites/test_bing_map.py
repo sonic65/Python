@@ -9,7 +9,7 @@ from common.browser_engine import BrowserEngine
 from pageobject.bing_homepage import HomePage
  
  
-class MapHomePage(unittest.TestCase):
+class BingMap(unittest.TestCase):
  
     def setUp(self):
         browse = BrowserEngine(self)

@@ -87,7 +87,7 @@ class HttpTest():
         return json.loads(res.content.decode())
 
     def get_invoke(self,url,data,headers=None):
-        res = None;
+        res = None
         if headers == None:
             res = requests.get(url=url,data=data)
         else:
@@ -117,7 +117,7 @@ if __name__ == '__main__':
     # parser.add_argument('--params', type=str, default=None)
     # args = parser.parse_args()
     # print("测试参数传递",args.params)
-    httpDemo = HttpTest();
+    httpDemo = HttpTest()
     httpDemo.auto_test_excel()
     # header = {
     #     "Consumer_Service_Id":"3282200401156294249"
