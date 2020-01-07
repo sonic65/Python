@@ -23,7 +23,6 @@ class BingArticle(unittest.TestCase):
         homepage.click_article()
         time.sleep(3)
         homepage.get_windows_img()
-        time.sleep(3)    
 
         try:
             assert 'Bing 学术' in self.driver.title

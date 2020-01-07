@@ -1,0 +1,15 @@
+2019-12-19 13:06:09,593 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-19 13:06:09,593 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-19 13:06:13,562 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-19 13:06:13,567 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-19 13:06:13,622 - BasePage - INFO - Had find the element ' 地图 ' successful by xpath via value: //*[@id="scpl4"] 
+2019-12-19 13:06:13,630 - BasePage - INFO - The element ' 地图 ' was clicked.
+2019-12-19 13:06:26,097 - BasePage - INFO - Sleep for 2 seconds
+2019-12-19 13:06:49,235 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-19 13:06:49,235 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-19 13:06:54,385 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-19 13:06:54,387 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-19 13:06:54,432 - BasePage - INFO - Had find the element ' 地图 ' successful by xpath via value: //*[@id="scpl4"] 
+2019-12-19 13:06:54,444 - BasePage - INFO - The element ' 地图 ' was clicked.
+2019-12-19 13:07:00,292 - BasePage - INFO - Sleep for 2 seconds
+2019-12-19 13:07:04,747 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

@@ -1,0 +1,45 @@
+2019-12-20 15:26:26,335 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:26:26,335 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:27:01,561 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:27:01,576 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:27:11,653 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"kw"}
+  (Session info: chrome=79.0.3945.88)
+  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+
+2019-12-20 15:27:14,014 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-12-20 15:27:14,290 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:27:14,290 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:27:19,540 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:27:19,547 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:27:32,575 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="internationalHeader"]/div[1]/div/div[3]/div[2]/div[1]/div/span/div/a"}
+  (Session info: chrome=79.0.3945.88)
+  (Driver info: chromedriver=2.36.540469 (1881fd7f8641508feb5166b7cae561d87723cfa8),platform=Mac OS X 10.15.1 x86_64)
+
+2019-12-20 15:27:34,821 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-12-20 15:27:34,973 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:27:34,973 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:27:38,227 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:27:38,228 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:27:38,276 - BasePage - INFO - Had find the element ' 学术 ' successful by xpath via value: //*[@id="scpl2"] 
+2019-12-20 15:27:38,302 - BasePage - INFO - The element ' 学术 ' was clicked.
+2019-12-20 15:27:41,581 - BasePage - INFO - Sleep for 2 seconds
+2019-12-20 15:27:45,249 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:27:45,249 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:27:50,885 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:27:50,887 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:27:50,923 - BasePage - INFO - Had find the element ' 地图 ' successful by xpath via value: //*[@id="scpl4"] 
+2019-12-20 15:27:50,935 - BasePage - INFO - The element ' 地图 ' was clicked.
+2019-12-20 15:27:54,612 - BrowserEngine - INFO - you had select Chrome browser.
+2019-12-20 15:27:54,612 - BrowserEngine - INFO - The test URL is: http://bing.com
+2019-12-20 15:27:58,084 - BrowserEngine - INFO - Open url: http://bing.com
+2019-12-20 15:27:58,088 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-12-20 15:27:58,145 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 15:27:58,444 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-12-20 15:27:58,511 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 15:27:58,544 - BasePage - INFO - Clear text in input box before typing.
+2019-12-20 15:27:58,613 - BasePage - INFO - Had find the element ' 国际版 ' successful by id via value: est_en 
+2019-12-20 15:27:58,627 - BasePage - INFO - The element ' 国际版 ' was clicked.
+2019-12-20 15:27:59,951 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="sb_form_q"] 
+2019-12-20 15:28:00,132 - BasePage - INFO - Had type ' python ' in inputBox
+2019-12-20 15:28:00,192 - BasePage - INFO - Had find the element '  ' successful by xpath via value: /html/body/table/tbody/tr/td/div/div[2]/div[3]/form/div/div[1]/input 
+2019-12-20 15:28:00,200 - BasePage - INFO - The element '  ' was clicked.

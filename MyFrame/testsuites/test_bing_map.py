@@ -6,7 +6,7 @@ import sys
 sys.path.append('/Users/sonic/Project/Python/MyFrame/')
 
 from common.browser_engine import BrowserEngine
-from pageobject.bing_homepage import HomePage
+from pageobject.bing_map_page import MapHomePage
  
  
 class BingMap(unittest.TestCase):
@@ -19,7 +19,11 @@ class BingMap(unittest.TestCase):
         self.driver.quit()
  
     def test_enter_map(self):
-        self.click_map()
+        homepage = MapHomePage(self.driver)
+        homepage.click_map()
+        time.sleep(3)
+        homepage.get_windows_img()
+        time.sleep(3)   
 
         try:
             assert 'Bing 地图' in self.driver.title

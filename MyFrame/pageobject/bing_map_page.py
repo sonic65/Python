@@ -1,9 +1,9 @@
-from common.base_pase import BasePage
+from common.base_page import BasePage
 
 class MapHomePage(BasePage):
 
-    Map_link = 'xpath=>//*[@id="scpl4"]'
+    map_link = 'xpath=>//*[@id="scpl4"]'
 
-    def click_Map(self):
-        self.click(self.Map_link)
+    def click_map(self):
+        self.click(self.map_link)
         self.sleep(2)
