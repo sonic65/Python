@@ -1,5 +1,5 @@
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
 import HTMLTestRunner
 import os
 import unittest

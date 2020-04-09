@@ -28,4 +28,4 @@ th8.n("Yakumo") #通过函数n赋值yakumo给neko_name,此时neko_name已经是s
 print(th8.name) 
 
 # def __init__(self):
-#     selef.data = []
+#     selef.Data = []

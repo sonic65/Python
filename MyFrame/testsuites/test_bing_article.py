@@ -3,7 +3,7 @@ import time
 import unittest
 import os
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
 from common.browser_engine import BrowserEngine
 from pageobject.bing_article_page import ArticleHomePage
  

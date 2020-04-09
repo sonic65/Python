@@ -1,7 +1,7 @@
 import unittest
 
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
 from common.HTMLTestRunner import HTMLTestRunner
 #导入HTMLTestRunner的包
 #导入test_login的包，执行测试用例时需使用

@@ -20,7 +20,7 @@ import time,os
 
 
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
 from common.HTMLTestRunner import HTMLTestRunner
 
 #TestSuit()

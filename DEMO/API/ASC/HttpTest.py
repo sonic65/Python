@@ -61,7 +61,7 @@ class HttpTest():
                 print('执行结果返回:',str(res))
                 if(res != None):
                     code = res['code']
-                    msg = res['data']
+                    msg = res['Data']
                     wbsheet1.write(row, 3, code)
                     wbsheet1.write(row, 4, str(msg))
                     res=None

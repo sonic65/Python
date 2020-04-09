@@ -1,6 +1,6 @@
 import os
 import sys  
-sys.path.append('/Users/sonic/Project/Python/My_API_Frame/Common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame_API/Common')
 import getpathInfo# 自己定义的内部类，该类返回项目的绝对路径
 #调用读Excel的第三方库xlrd
 from xlrd import open_workbook
@@ -21,6 +21,6 @@ class readExcel():
                 cls.append(sheet.row_values(i))
         return cls
 if __name__ == '__main__':#我们执行该文件测试一下是否可以正确获取Excel中的值
-    print(readExcel().get_xls('userCase.xlsx', 'login'))
-    print(readExcel().get_xls('userCase.xlsx', 'login')[0][1])
-    print(readExcel().get_xls('userCase.xlsx', 'login')[1][2])
+    print('All',readExcel().get_xls('userCase.xlsx', 'login'))
+    print('0-1',readExcel().get_xls('userCase.xlsx', 'login')[0][1])
+    print('1-2',readExcel().get_xls('userCase.xlsx', 'login')[1][2])

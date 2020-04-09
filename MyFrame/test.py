@@ -3,14 +3,14 @@ import configparser
 import os
 
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/common')
+sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
 from common.logger import Logger
 import time
 from selenium import webdriver
 
 
 config = configparser.ConfigParser()
-config_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/common/config.ini'
+config_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/Common/config.ini'
 print(config_path)
 
 screen_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/screenshots/'

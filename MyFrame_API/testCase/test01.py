@@ -1,10 +1,12 @@
 import json
 import unittest
 import sys  
-sys.path.append('/Users/sonic/Project/Python/My_API_Frame/')
+sys.path.append('/Users/sonic/Project/Python/MyFrame_API/')
 from common.configHttp import RunMain
 from readConfig import ReadConfig
 import paramunittest
+from readConfig import ReadConfig
+
 # import geturlParams
 import urllib.parse
 # import pythoncom
