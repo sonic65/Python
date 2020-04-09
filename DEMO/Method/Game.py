@@ -26,11 +26,16 @@ Game.show_top_score()
 game = Game("sonic")
 game.start_game()
 
+"""
+Requirement
+top_score #Hight Score (Class_method)
+player_name #Name (Instance)
+show_help #Maual (Static_Method)
+start_game #New Game (Instance)
+##
 
+"""
 
-#Requirement
-# top_score #Hight Score (Class_method)
-# player_name #Name (Instance)
-# show_help #Maual (Static_Method)
-# start_game #New Game (Instance)
-# ##
+#实例方法,访问实例属性
+#类方法,只需要访问类属性
+#静态方法,不需要访问实例属性和类属性
