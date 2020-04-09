@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dfdf8e7-8ae2-4bec-b812-43aa4f38ae96" name="Default Changelist" comment="" />
+    <list default="true" id="1dfdf8e7-8ae2-4bec-b812-43aa4f38ae96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/My_API_Frame/testCase/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/host.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/package/HTMLTestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/page/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/page/login_page.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO/sso/testreport/loginReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn/Python-BadApple-master/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn/Python-BadApple-master/play.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_API_Frame/common/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/My_API_Frame/common/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_API_Frame/common/getpathInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_API_Frame/common/readConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_API_Frame/common/readExcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_API_Frame/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/My_API_Frame/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +37,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager" selected="Python.test">
     <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -105,6 +123,9 @@
       <workItem from="1576343311074" duration="145000" />
       <workItem from="1577090994696" duration="27000" />
       <workItem from="1577243114488" duration="125000" />
+      <workItem from="1586419126490" duration="6000" />
+      <workItem from="1586419293401" duration="2000" />
+      <workItem from="1586419311174" duration="625000" />
     </task>
     <servers />
   </component>
@@ -112,34 +133,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="668" y="137" key="#login_page" timestamp="1576343427772">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="221" y="80" key="SettingsEditor" timestamp="1586419589027">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="668" y="137" key="#login_page/0.0.1920.1050@0.0.1920.1050" timestamp="1576343427772" />
-    <state x="668" y="137" key="#test" timestamp="1576343443389">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="668" y="137" key="#test/0.0.1920.1050@0.0.1920.1050" timestamp="1576343443389" />
-    <state x="645" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1577243124607">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="645" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577091015598" />
-    <state x="645" y="358" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577243124607" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="221" y="80" key="SettingsEditor/0.23.1440.837@0.23.1440.837" timestamp="1586419589027" />
   </component>
 </project>

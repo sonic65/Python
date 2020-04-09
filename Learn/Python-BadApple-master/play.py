@@ -8,7 +8,7 @@ def getTxt(imagePath, txtPath):
 		imageFile = imagePath + str(img_count) + '.png'
 		txtFile = txtPath + str(img_count) + '.txt'
 		image2txt.image2txt(imageFile, txtFile)
-		print 'txt ' + str(img_count) + ' collected.'
+		print ('txt ') + str(img_count) + ' collected.'
 		img_count += 1
 
 def play(txtPath):
