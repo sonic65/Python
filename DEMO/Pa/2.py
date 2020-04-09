@@ -7,7 +7,7 @@ herolist = requests.get(url)  # 获取英雄列表json文件
 herolist_json = herolist.json()  # 转化为json格式
 hero_name = list(map(lambda x: x['cname'], herolist.json()))  # 提取英雄的名字
 hero_number = list(map(lambda x: x['ename'], herolist.json()))  # 提取英雄的编号
-
+hero_tittle = list(map(lambda x: x['title'], herolist.json()))  # 提取英雄的编号
 
 # 下载图片
 def downloadPic():
@@ -26,5 +26,5 @@ def downloadPic():
             if im.status_code == 200:
                 open(str(k) + '.jpg', 'wb').write(im.content)  # 写入文件
 
-
+print(hero_name,hero_number,hero_tittle)
 downloadPic()
