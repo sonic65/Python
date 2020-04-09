@@ -25,11 +25,9 @@ class BrowserEngine(object):
     def open_browser(self,driver):
 
         config = configparser.ConfigParser()
-<<<<<<< HEAD
-        config_path = os.path.dirname(os.path.abspath('.')) + 'common/config.ini'
-=======
+
         config_path = os.path.dirname(os.path.abspath('.')) + '/MyFrame/common/config.ini'
->>>>>>> dd221c29427f8c75cd244a1ed35aaa9546d9319c
+
         config.read(config_path)
         browser_type = config.get("browserType","browserName")
         logger.info("you had select %s browser."% browser_type)

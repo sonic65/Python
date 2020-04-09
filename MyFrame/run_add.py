@@ -1,7 +1,6 @@
 import unittest
 import testsuites
 from testsuites.test_bing_article import BingArticle
-<<<<<<< HEAD
 from testsuites.test_bing_search import BingSearch
 from testsuites.test_bing_map import BingMap
 
@@ -15,7 +14,6 @@ suite.addTest(BingMap('test_enter_map'))
 if __name__=='__main__':
 
     runner=unittest.TextTestRunner()
-=======
 from testsuites.test_bing_map import BingMap
 from testsuites.test_bing_search import BingSearch
 import time,os
@@ -47,4 +45,4 @@ if __name__ =='__main__':
         description=u'用例执行情况（Mac OS）'
     )
     runner.run(suite)
->>>>>>> dd221c29427f8c75cd244a1ed35aaa9546d9319c
+
