@@ -1,0 +1,9 @@
+
+
+top_score #Hight Score (Class_method)
+
+player_name #Name (Instance)
+
+show_help #Maual (Static_Method)
+
+start_game #New Game (Instance)
