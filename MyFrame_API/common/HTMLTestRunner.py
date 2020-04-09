@@ -181,7 +181,7 @@ class Template_mixin(object):
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/echarts/3.8.5/echarts.common.min.js"></script>
-    <!-- <script type="text/javascript" src="js/echarts.common.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/echarts.Common.min.js"></script> -->
     %(stylesheet)s
 </head>
 <body>
@@ -299,7 +299,7 @@ class Template_mixin(object):
             legend: {
                 orient: 'vertical',
                 left: 'left',
-                data: ['通过','失败','错误']
+                Data: ['通过','失败','错误']
             },
             series : [
                 {
@@ -307,7 +307,7 @@ class Template_mixin(object):
                     type: 'pie',
                     radius : '60%%',
                     center: ['50%%', '60%%'],
-                    data:[
+                    Data:[
                         {value:%(Pass)s, name:'通过'},
                         {value:%(fail)s, name:'失败'},
                         {value:%(error)s, name:'错误'}
