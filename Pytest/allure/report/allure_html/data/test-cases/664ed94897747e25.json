@@ -1,0 +1,70 @@
+{
+  "uid" : "664ed94897747e25",
+  "name" : "test_case01",
+  "fullName" : "allure.report_test#test_case01",
+  "historyId" : "1e8e1b839789d2eefffbb194e08477b6",
+  "time" : {
+    "start" : 1586499308487,
+    "stop" : 1586499308487,
+    "duration" : 0
+  },
+  "description" : "\n    discription1\n    ",
+  "descriptionHtml" : "<pre><code>discription1\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TestStory01"
+  }, {
+    "name" : "feature",
+    "value" : "TestModule01"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "allure"
+  }, {
+    "name" : "suite",
+    "value" : "report_test"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "17219-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure.report_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "664ed94897747e25.json",
+  "parameterValues" : [ ]
+}
