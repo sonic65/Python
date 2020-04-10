@@ -1,0 +1,164 @@
+{
+  "uid" : "236319a84cfb850a",
+  "name" : "cnodejs项目",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "7e828afbaedfa893de205d6534b52ff9",
+  "time" : {
+    "start" : 1586446809632,
+    "stop" : 1586446885442,
+    "duration" : 75810
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1//topic_collect/de_collect<br /><font color=\"red\">期望值：</font>post /topic_collect/de_collect 取消主题",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1//topic_collect/de_collect<br /><font color=\"red\">期望值：</font>post /topic_collect/de_collect 取消主题</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10c5a6110>\ncase = {'case_description': 'post /topic_collect/de_collect 取消主题', 'case_expect': '{\"success\":false}', 'case_method': 'post', 'case_params': '', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_project'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_description']))\n        allure.dynamic.feature(case['case_project'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...t/de_collect'} == '{\"success\":false}'\nE         +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\nE         -'{\"success\":false}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1//topic_collect/de_collect<br /><font color=\"red\">期望值：</font>post /topic_collect/de_collect 取消主题",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10c5a6110>\ncase = {'case_description': 'post /topic_collect/de_collect 取消主题', 'case_expect': '{\"success\":false}', 'case_method': 'post', 'case_params': '', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_project'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_description']))\n        allure.dynamic.feature(case['case_project'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...t/de_collect'} == '{\"success\":false}'\nE         +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\nE         -'{\"success\":false}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf3013a145d3802e",
+      "name" : "log",
+      "source" : "cf3013a145d3802e.txt",
+      "type" : "text/plain",
+      "size" : 165
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "9004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb497ef09ec3212f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575858801694,
+        "stop" : 1575858802309,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "a445937166192800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574827963985,
+        "stop" : 1574827964302,
+        "duration" : 317
+      }
+    }, {
+      "uid" : "ee5fb9fcfbdc631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574817327875,
+        "stop" : 1574817328257,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "4d94edf597d36ebb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574760151207,
+        "stop" : 1574760151660,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "7ce5163b674295aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574760061603,
+        "stop" : 1574760061872,
+        "duration" : 269
+      }
+    }, {
+      "uid" : "a7f8a2d5b74b5223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574759129004,
+        "stop" : 1574759129351,
+        "duration" : 347
+      }
+    }, {
+      "uid" : "152ba127ba62160a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574759010725,
+        "stop" : 1574759011134,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "72370332abda9b87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574758447874,
+        "stop" : 1574758448154,
+        "duration" : 280
+      }
+    }, {
+      "uid" : "415866ea806085ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574758314169,
+        "stop" : 1574758314543,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "236319a84cfb850a.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+}

@@ -4,17 +4,18 @@
 import os
 import datetime
 
+BASE_URL = 'http://127.0.0.0'
+
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 脚本路径
-file_path = '接口测试示例.xlsx'
-TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
+file_path = 'Test_Case.xlsx'
+TEST_CASE_PATH = os.path.join(BASE_PATH, 'Data', file_path)
 
 # 报告路径
 TEST_CASE_REPORT_PATH = os.path.join(BASE_PATH, 'report', 'report.html')
 
-# CASE_METHOD = 'case_method'
-
+# CASE_METHOD = 'method'
 
 # ------------ allure 相关配置 -----------
 

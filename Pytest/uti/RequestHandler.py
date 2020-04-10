@@ -18,9 +18,9 @@ class RequestHandler(object):
     def __init__(self, case):
         self.case = case
         try:
-            self.case_expect = json.loads(self.case['case_expect'])
+            self.case_expect = json.loads(self.case['expect'])
         except:
-            self.case_expect = self.case['case_expect']
+            self.case_expect = self.case['expect']
 
     @property
     def get_response(self):
@@ -32,8 +32,8 @@ class RequestHandler(object):
         """ 发请求 """
         try:
             response = requests.request(
-                method=self.case['case_method'],
-                url=self.case['case_url'],
+                method=self.case['method'],
+                url=basurl + self.case['url'],
                 params=self._check_params()
             )
             content_type = response.headers['Content-Type']
@@ -44,8 +44,8 @@ class RequestHandler(object):
             else:
                 raise '返回类型为: {}, 无法解析'.format(content_type)
         except:
-            logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
-            return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
+            logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['url'])})
+            return {'response': "请求发送失败，详细信息： url={}".format(self.case['url'])}, self.case['expect']
 
         return response
 
@@ -56,7 +56,7 @@ class RequestHandler(object):
             if self.case_expect[key] != response[key]:  # 用例执行失败的
                 return {key: self.case_expect[key]}, {key: response[key]}
         else:  # 执行成功
-            logger("发送请求").info('{} 执行成功'.format(self.case['case_url']))
+            logger("发送请求").info('{} 执行成功'.format(self.case['url']))
             return {key: self.case_expect[key]}, {key: response[key]}
 
     def _check_html_response(self, response):
@@ -67,7 +67,7 @@ class RequestHandler(object):
 
     def _check_params(self):
         """ 整理参数 """
-        if self.case['case_params']:
+        if self.case['params']:
             """
             做扩展
             """

@@ -1,0 +1,82 @@
+{
+  "7e828afbaedfa893de205d6534b52ff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4d4d10835fdc041",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586449153320,
+        "stop" : 1586449153321,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8969fb93535c3ccbd57d0d36069d62f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0dbfe3a877d0e62",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586449153191,
+        "stop" : 1586449153213,
+        "duration" : 22
+      }
+    } ]
+  },
+  "fac1fcb6ccb71c4ed49bb5fbd5696efb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6001259fa17c304",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586449153310,
+        "stop" : 1586449153310,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2267bb04dfeab26bec94c39d05e91380" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d25b1771d280cafc",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586449153303,
+        "stop" : 1586449153304,
+        "duration" : 1
+      }
+    } ]
+  }
+}

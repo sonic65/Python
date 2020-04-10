@@ -15,3 +15,6 @@ Email.py 封装smtplib方法，运行结果发送邮件通知
 Assert.py 封装assert方法
 run.py 核心代码。定义并执行用例集，生成报告
 
+手动生成报告：
+Pytest：
+allure generate report/result -o report/allure_html --clean

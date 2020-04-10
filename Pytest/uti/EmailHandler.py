@@ -30,7 +30,7 @@ class EmailHandler(object):
 
         # 设置收件人和发件人
         sender = '1641839697@qq.com'
-        receivers = ['1641839697@qq.com', ]  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+        receivers = ['sonic64@qq.com', ]  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
         # 创建一个带附件的实例对象
         message = MIMEMultipart()

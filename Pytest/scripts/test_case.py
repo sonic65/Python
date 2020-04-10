@@ -28,9 +28,9 @@ class Test_case(object):
         # 制作 allure 报告
         allure.dynamic.title(case['case_project'])
         allure.dynamic.description('<font color="red">请求URL：</font>{}<br />'
-                                   '<font color="red">期望值：</font>{}'.format(case['case_url'], case['case_description']))
-        allure.dynamic.feature(case['case_project'])
-        allure.dynamic.story(case['case_method'])
+                                   '<font color="red">期望值：</font>{}'.format(case['url'], case['module']))
+        allure.dynamic.feature(case['id'])
+        allure.dynamic.story(case['method'])
         assert response[0] == response[1]
 
     def teardown_class(self):

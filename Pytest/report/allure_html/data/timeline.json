@@ -1,0 +1,177 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "localhost",
+    "children" : [ {
+      "name" : "9138-MainThread",
+      "children" : [ {
+        "name" : "test_case[case3]",
+        "uid" : "777cd0faaa0f7363",
+        "parentUid" : "1599e8e72d19d7cd7079ced94ec94a86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446922269,
+          "stop" : 1586446922270,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0004', 'module': 'flask', 'url': 'name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 202, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case1]",
+        "uid" : "e59c8b1cbfcbd598",
+        "parentUid" : "1599e8e72d19d7cd7079ced94ec94a86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446922151,
+          "stop" : 1586446922151,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0002', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case0]",
+        "uid" : "fcefaba8e18b772",
+        "parentUid" : "1599e8e72d19d7cd7079ced94ec94a86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446921996,
+          "stop" : 1586446921996,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0001', 'module': '口碑', 'url': 'baidu.com', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': 0.0, 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case2]",
+        "uid" : "f07d523f1b038990",
+        "parentUid" : "1599e8e72d19d7cd7079ced94ec94a86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446922210,
+          "stop" : 1586446922210,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0003', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=999', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 201, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      } ],
+      "uid" : "1599e8e72d19d7cd7079ced94ec94a86"
+    }, {
+      "name" : "10306-MainThread",
+      "children" : [ {
+        "name" : "test_case[case1]",
+        "uid" : "d25b1771d280cafc",
+        "parentUid" : "1dbb5ac1ee9fb76cc31d4223a751961d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586449153303,
+          "stop" : 1586449153304,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0002', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case3]",
+        "uid" : "b4d4d10835fdc041",
+        "parentUid" : "1dbb5ac1ee9fb76cc31d4223a751961d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586449153320,
+          "stop" : 1586449153321,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0004', 'module': 'flask', 'url': 'name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 202, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case0]",
+        "uid" : "b0dbfe3a877d0e62",
+        "parentUid" : "1dbb5ac1ee9fb76cc31d4223a751961d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586449153191,
+          "stop" : 1586449153213,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0001', 'module': '口碑', 'url': 'baidu.com', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': 0.0, 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case2]",
+        "uid" : "d6001259fa17c304",
+        "parentUid" : "1dbb5ac1ee9fb76cc31d4223a751961d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586449153310,
+          "stop" : 1586449153310,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0003', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=999', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 201, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      } ],
+      "uid" : "1dbb5ac1ee9fb76cc31d4223a751961d"
+    }, {
+      "name" : "8423-MainThread",
+      "children" : [ {
+        "name" : "test_case[case3]",
+        "uid" : "57fcebc0c5b7d572",
+        "parentUid" : "409bd31b62ede819826b298c47ed57ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446302767,
+          "stop" : 1586446302767,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0004', 'module': 'flask', 'url': 'name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 202, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case0]",
+        "uid" : "d6b60619b5e20033",
+        "parentUid" : "409bd31b62ede819826b298c47ed57ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446302523,
+          "stop" : 1586446302523,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0001', 'module': '口碑', 'url': 'baidu.com', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': 0.0, 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case2]",
+        "uid" : "3eec40974c3944e5",
+        "parentUid" : "409bd31b62ede819826b298c47ed57ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446302717,
+          "stop" : 1586446302717,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0003', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=999', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 201, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      }, {
+        "name" : "test_case[case1]",
+        "uid" : "b6b6f9007ba61ed5",
+        "parentUid" : "409bd31b62ede819826b298c47ed57ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586446302664,
+          "stop" : 1586446302665,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'asc-0002', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+      } ],
+      "uid" : "409bd31b62ede819826b298c47ed57ab"
+    } ],
+    "uid" : "be30f600e0434356d35178c8efd2dc81"
+  } ]
+}

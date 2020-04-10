@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Apr 10 00:19:13 CST 2020","Fri Apr 10 00:19:13 CST 2020","1","scripts","test_case","Test_case","","","test_case[case3]","  执行断言 "
+"broken","Fri Apr 10 00:19:13 CST 2020","Fri Apr 10 00:19:13 CST 2020","22","scripts","test_case","Test_case","","","test_case[case0]","  执行断言 "
+"broken","Fri Apr 10 00:19:13 CST 2020","Fri Apr 10 00:19:13 CST 2020","0","scripts","test_case","Test_case","","","test_case[case2]","  执行断言 "
+"broken","Fri Apr 10 00:19:13 CST 2020","Fri Apr 10 00:19:13 CST 2020","1","scripts","test_case","Test_case","","","test_case[case1]","  执行断言 "

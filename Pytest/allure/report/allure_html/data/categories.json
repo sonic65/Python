@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '你好' in 'hello world'",
+      "children" : [ {
+        "name" : "test_case02",
+        "uid" : "c99c380225a7dc63",
+        "parentUid" : "09a75adb253da474670c2a2145453e8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586499308490,
+          "stop" : 1586499308492,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09a75adb253da474670c2a2145453e8d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

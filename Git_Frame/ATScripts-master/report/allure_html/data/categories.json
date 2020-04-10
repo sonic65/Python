@@ -7,19 +7,36 @@
       "name" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 +",
       "children" : [ {
         "name" : "cnblogs",
-        "uid" : "5508042e192cc052",
+        "uid" : "2fa0a812ab901c17",
         "parentUid" : "f35a7bd44e4fde614daa5bc822cc6b0b",
         "status" : "failed",
         "time" : {
-          "start" : 1574827966603,
-          "stop" : 1574827966812,
-          "duration" : 209
+          "start" : 1575858805368,
+          "stop" : 1575858806174,
+          "duration" : 806
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_project': 'cnblogs', 'case_description': '博客园博客信息', 'case_url': 'https://www.cnblogs.com/Neeo/articles/11667962.html', 'case_method': 'get', 'case_params': '', 'case_expect': 'JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2', 'other': ''}" ]
       } ],
       "uid" : "f35a7bd44e4fde614daa5bc822cc6b0b"
+    }, {
+      "name" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+      "children" : [ {
+        "name" : "cnodejs项目",
+        "uid" : "236319a84cfb850a",
+        "parentUid" : "63a3e74880b148679ce62d3d0719a5d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586446809632,
+          "stop" : 1586446885442,
+          "duration" : 75810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+      } ],
+      "uid" : "63a3e74880b148679ce62d3d0719a5d2"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
