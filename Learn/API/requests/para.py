@@ -21,6 +21,7 @@ print(response.text)
 
 
 
+
 # 环境变量代理
 # export HTTP_PROXY="http://12.34.56.79:9527"
 # export HTTPS_PROXY="https://12.34.56.79:9527"

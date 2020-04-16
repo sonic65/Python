@@ -26,7 +26,7 @@ def test_case02():
 @allure.severity('Trivial')
 def test_case03():
     '''
-    discription3
+    discriptionAAA
     '''
     assert 5<6
 
@@ -41,6 +41,8 @@ def str_add(str1, str2):
 @allure.feature('TestModule02')
 @allure.story('TestStory01')
 @allure.severity('Normal')
+@allure.description('测试报告')
+@allure.title('测试标题')
 def test_case04():
     '''
     discription3
@@ -50,14 +52,4 @@ def test_case04():
     assert str_add(str1,str2) == 'helloworld'
 
 if __name__ == '__main__':
-    file = open('../report.html','rb').read()
-    allure.attach('test_report', file, allure.attach_type.HTML)
-
-    '''
-在报告中增加附件：allure.attach(’arg1’,’arg2’,’arg3’)：
-arg1：是在报告中显示的附件名称
-arg2：表示添加附件的内容
-arg3：表示添加的类型(支持:HTML,JPG,PNG,JSON,OTHER,TEXTXML)
-    '''
-
     pytest.main(['-s', '-q', '--alluredir', './report/xml'])

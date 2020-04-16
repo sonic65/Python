@@ -1,0 +1,2 @@
+[1m[31mERROR   [0m 接口测试:RequestHandler.py:48 {'response': '请求发送失败，详细信息： url=http://baidu.com'}
+[32mINFO    [0m 接口测试:EmailHandler.py:62 邮件发送成功

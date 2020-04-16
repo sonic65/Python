@@ -4,12 +4,12 @@
 import os
 import datetime
 
-BASE_URL = 'http://127.0.0.0'
+BASE_URL = 'https://'
 
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 脚本路径
-file_path = 'Test_Case.xlsx'
+file_path = 'Test_Case.xls'
 TEST_CASE_PATH = os.path.join(BASE_PATH, 'Data', file_path)
 
 # 报告路径

@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e11af2fb8cc6d38",
+      "uid" : "6f02429ca9624ce2",
       "status" : "passed",
       "time" : {
-        "start" : 1586446885558,
-        "stop" : 1586446886481,
-        "duration" : 923
+        "start" : 1586844431409,
+        "stop" : 1586844432035,
+        "duration" : 626
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "236319a84cfb850a",
+      "uid" : "6032b76636f2073b",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+      "statusDetails" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
       "time" : {
-        "start" : 1586446809632,
-        "stop" : 1586446885442,
-        "duration" : 75810
+        "start" : 1586844431397,
+        "stop" : 1586844431397,
+        "duration" : 0
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46a902d862cf4c9e",
+      "uid" : "7e1ec617a2a266df",
       "status" : "passed",
       "time" : {
-        "start" : 1586446889383,
-        "stop" : 1586446889821,
-        "duration" : 438
+        "start" : 1586844433906,
+        "stop" : 1586844435056,
+        "duration" : 1150
       }
     } ]
   },
@@ -67,32 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2fa0a812ab901c17",
+      "uid" : "88ee61529c0e4f96",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 +",
+      "statusDetails" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 -\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园",
       "time" : {
-        "start" : 1575858805368,
-        "stop" : 1575858806174,
-        "duration" : 806
+        "start" : 1586842935017,
+        "stop" : 1586842935338,
+        "duration" : 321
       }
     } ]
   },
   "8969fb93535c3ccbd57d0d36069d62f2" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "123125eb7083159f",
-      "status" : "passed",
+      "uid" : "fc06f5667f175dab",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
       "time" : {
-        "start" : 1586446805727,
-        "stop" : 1586446806773,
-        "duration" : 1046
+        "start" : 1586844428432,
+        "stop" : 1586844428544,
+        "duration" : 112
       }
     } ]
   },
@@ -106,12 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9893a1a90b362494",
+      "uid" : "7e4e011d9e9cff75",
       "status" : "passed",
       "time" : {
-        "start" : 1586446886489,
-        "stop" : 1586446889378,
-        "duration" : 2889
+        "start" : 1586844432040,
+        "stop" : 1586844433876,
+        "duration" : 1836
       }
     } ]
   },
@@ -125,31 +126,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66f7adb25b275a24",
+      "uid" : "dc1436cc05f49c08",
       "status" : "passed",
       "time" : {
-        "start" : 1586446807460,
-        "stop" : 1586446809627,
-        "duration" : 2167
+        "start" : 1586844429793,
+        "stop" : 1586844431392,
+        "duration" : 1599
       }
     } ]
   },
   "2267bb04dfeab26bec94c39d05e91380" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38025617d392f0c1",
-      "status" : "passed",
+      "uid" : "fc213d61d43cb2f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...lect/collect'} == '{\"code\": 1}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1/topic_collect/collect'}\n  -'{\"code\": 1}'",
       "time" : {
-        "start" : 1586446806778,
-        "stop" : 1586446807454,
-        "duration" : 676
+        "start" : 1586844428642,
+        "stop" : 1586844429783,
+        "duration" : 1141
       }
     } ]
   }

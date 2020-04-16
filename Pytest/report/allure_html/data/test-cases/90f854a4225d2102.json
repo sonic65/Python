@@ -1,0 +1,110 @@
+{
+  "uid" : "90f854a4225d2102",
+  "name" : "test_case[case12]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "f76c90a4e3988a01ab5ffa307c7d860b",
+  "time" : {
+    "start" : 1586832153740,
+    "stop" : 1586832153741,
+    "duration" : 1
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'case_project'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x1057a9e90>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['case_project'])\nE       KeyError: 'case_project'\n\nscripts/test_case.py:29: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586832153249,
+      "stop" : 1586832153249,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'case_project'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x1057a9e90>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['case_project'])\nE       KeyError: 'case_project'\n\nscripts/test_case.py:29: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3b3a108fb9fc3b6",
+      "name" : "log",
+      "source" : "b3b3a108fb9fc3b6.txt",
+      "type" : "text/plain",
+      "size" : 142
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586832153879,
+      "stop" : 1586832160764,
+      "duration" : 6885
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "72028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': '', 'module': '', 'url': '/employees/group/reflect/page', 'isRun': 'RUN', 'method': 'POST', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"postStat\":\"Y\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f854a4225d2102.json",
+  "parameterValues" : [ "{'id': '', 'module': '', 'url': '/employees/group/reflect/page', 'isRun': 'RUN', 'method': 'POST', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"postStat\":\"Y\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+}

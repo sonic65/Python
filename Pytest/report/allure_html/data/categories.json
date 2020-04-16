@@ -2,63 +2,458 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "KeyError: 'case_project'",
+      "name" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
       "children" : [ {
-        "name" : "test_case[case0]",
-        "uid" : "b0dbfe3a877d0e62",
-        "parentUid" : "0d0e6306977e80c0d7238ad1f5c389b0",
-        "status" : "broken",
+        "name" : "employees",
+        "uid" : "34d4e57e39e059a5",
+        "parentUid" : "19b7da03e6632554420a9f37112196a8",
+        "status" : "failed",
         "time" : {
-          "start" : 1586449153191,
-          "stop" : 1586449153213,
-          "duration" : 22
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'id': 'asc-0001', 'module': '口碑', 'url': 'baidu.com', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': 0.0, 'result': '', 'message': ''}" ]
-      }, {
-        "name" : "test_case[case1]",
-        "uid" : "d25b1771d280cafc",
-        "parentUid" : "0d0e6306977e80c0d7238ad1f5c389b0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586449153303,
-          "stop" : 1586449153304,
+          "start" : 1586832979365,
+          "stop" : 1586832979366,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 'asc-0002', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\":8,\"pageNumber\":10,\"postState\":\"Y\",\"mainJob\":\"Y\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
-        "name" : "test_case[case2]",
-        "uid" : "d6001259fa17c304",
-        "parentUid" : "0d0e6306977e80c0d7238ad1f5c389b0",
-        "status" : "broken",
+        "name" : "employees",
+        "uid" : "b58fa603d13cf111",
+        "parentUid" : "19b7da03e6632554420a9f37112196a8",
+        "status" : "failed",
         "time" : {
-          "start" : 1586449153310,
-          "stop" : 1586449153310,
+          "start" : 1586832979430,
+          "stop" : 1586832979432,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 1,\\n    \"pageNumber\": 2\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "19b7da03e6632554420a9f37112196a8"
+    }, {
+      "name" : "AssertionError: assert {'response': ...-11 23:59:59'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/increment?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "98e6b268219be77c",
+        "parentUid" : "d6d9ae158b0e3ffc456e6d4500e8fa85",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979375,
+          "stop" : 1586832979375,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 'asc-0003', 'module': 'flask', 'url': 'http://127.0.0.1:8888/login?name=yuhang&pw=999', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 201, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
-      }, {
-        "name" : "test_case[case3]",
-        "uid" : "b4d4d10835fdc041",
-        "parentUid" : "0d0e6306977e80c0d7238ad1f5c389b0",
-        "status" : "broken",
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/increment?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"beginTime\": \"2015-01-01 00:00:00\",\\n    \"endTime\": \"2019-10-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "d6d9ae158b0e3ffc456e6d4500e8fa85"
+    }, {
+      "name" : "AssertionError: assert {'response': ...yees/E089288'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E089288'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "f912d28c8f883a18",
+        "parentUid" : "e1ed67b5631616e08d53aca8fff88cf9",
+        "status" : "failed",
         "time" : {
-          "start" : 1586449153320,
-          "stop" : 1586449153321,
+          "start" : 1586832979388,
+          "stop" : 1586832979390,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/E089288', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "e1ed67b5631616e08d53aca8fff88cf9"
+    }, {
+      "name" : "AssertionError: assert {'response': ...yees/tb/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/tb/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "24663241baaf8af7",
+        "parentUid" : "e2d39b376b1cba1be2c26459b7f98b0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979400,
+          "stop" : 1586832979405,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/tb/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"postState\": \"Y\",\\n    \"mainJob\": \"Y\",\\n    \"beginTime\": \"2016-10-01 00:00:00\",\\n    \"endTime\": \"2016-10-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "e2d39b376b1cba1be2c26459b7f98b0c"
+    }, {
+      "name" : "AssertionError: assert {'response': ...pCode=206316'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/sub/byGroupCode?groupCode=206316'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "fa40b2f23056a7b3",
+        "parentUid" : "fba7e45c0e630f991aa3e3537ac6f598",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979416,
+          "stop" : 1586832979417,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'id': 'asc-0004', 'module': 'flask', 'url': 'name=yuhang&pw=111', 'isRun': 'RUN', 'method': 'GET', 'parameter': '', 'expect': '{\"code\": 202, \"message\": \"登录成功\"}', 'result': '', 'message': ''}" ]
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/sub/byGroupCode?groupCode=206316', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       } ],
-      "uid" : "0d0e6306977e80c0d7238ad1f5c389b0"
+      "uid" : "fba7e45c0e630f991aa3e3537ac6f598"
+    }, {
+      "name" : "AssertionError: assert {'response': ...9288/linkman'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E089288/linkman'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "44eb0ba110814788",
+        "parentUid" : "efc800ce8228e0be6c9ea3f8782b6c6c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979454,
+          "stop" : 1586832979455,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/E089288/linkman', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "efc800ce8228e0be6c9ea3f8782b6c6c"
+    }, {
+      "name" : "AssertionError: assert {'response': ...reflect/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/group/reflect/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "9da68e236525b5ee",
+        "parentUid" : "46a8ade0ca0b0b941d0028c7652a6e50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979465,
+          "stop" : 1586832979466,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/group/reflect/page', 'isRun': 'RUN', 'method': 'POST', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"postStat\":\"Y\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "46a8ade0ca0b0b941d0028c7652a6e50"
+    }, {
+      "name" : "AssertionError: assert {'response': ...10785/leader'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E010785/leader'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "employees",
+        "uid" : "db21cd5ee4062081",
+        "parentUid" : "f8d7d4b4f2a2a33e9af3b0d83fc5f9a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979478,
+          "stop" : 1586832979479,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/E010785/leader', 'isRun': 'RUN', 'method': 'GET', 'params': 0.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "f8d7d4b4f2a2a33e9af3b0d83fc5f9a1"
+    }, {
+      "name" : "AssertionError: assert {'response': ...fice_records'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/E010785/office_records'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "self",
+        "uid" : "5e7ba8d93483427a",
+        "parentUid" : "a97885bc1981e0aff5069ea9c587b8ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979494,
+          "stop" : 1586832979496,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/E010785/office_records', 'isRun': 'RUN', 'method': 'GET', 'params': '{}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "a97885bc1981e0aff5069ea9c587b8ca"
+    }, {
+      "name" : "AssertionError: assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "self",
+        "uid" : "2fe723d8034bb7e4",
+        "parentUid" : "6e0f1b7e075b31ec9fea99e49dbc8aa4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979509,
+          "stop" : 1586832979513,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/emp/0001A910000000006UYK/itss', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "6e0f1b7e075b31ec9fea99e49dbc8aa4"
+    }, {
+      "name" : "AssertionError: assert {'response': .../subordinate'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emps/E010785/subordinate'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "self",
+        "uid" : "643d4925f7e6f161",
+        "parentUid" : "0326c535b191c8e231ec6108ff6c544c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979527,
+          "stop" : 1586832979527,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/emps/E010785/subordinate', 'isRun': 'RUN', 'method': 'GET', 'params': 2.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "0326c535b191c8e231ec6108ff6c544c"
+    }, {
+      "name" : "AssertionError: assert {'response': ...//depts/0005'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///depts/0005'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "depts",
+        "uid" : "48be53568bc564fc",
+        "parentUid" : "c1bb5a2ae73ff729505ef4c651c7e911",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979540,
+          "stop" : 1586832979543,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'depts', 'url': '/depts/0005', 'isRun': 'RUN', 'method': 'GET', 'params': 0.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "c1bb5a2ae73ff729505ef4c651c7e911"
+    }, {
+      "name" : "AssertionError: assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "nc",
+        "uid" : "b90c4d2562b2238e",
+        "parentUid" : "766c70568960e835faad41d66613a34b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979553,
+          "stop" : 1586832979554,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      }, {
+        "name" : "nc",
+        "uid" : "bed2aa97df6af04e",
+        "parentUid" : "766c70568960e835faad41d66613a34b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979572,
+          "stop" : 1586832979573,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "766c70568960e835faad41d66613a34b"
+    }, {
+      "name" : "AssertionError: assert {'response': ...-11 23:59:59'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndocIncremental?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "nc",
+        "uid" : "b48c52c0e3a72513",
+        "parentUid" : "5e75c62e346cf8d9164c770b199178af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979562,
+          "stop" : 1586832979563,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndocIncremental?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2, \"beginTime\": \"2015-10-01 00:00:00\",\\n    \"endTime\": \"2019-10-11 23:59:59\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "5e75c62e346cf8d9164c770b199178af"
+    }, {
+      "name" : "AssertionError: assert {'response': ...m?typeCode=1'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///dicts/queryDictByCustom?typeCode=1'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "nc",
+        "uid" : "f85c04a0a7a851f0",
+        "parentUid" : "b51b53e805bd96c968c6280422dc125a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979582,
+          "stop" : 1586832979584,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/dicts/queryDictByCustom?typeCode=1', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"typeCode\":2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "b51b53e805bd96c968c6280422dc125a"
+    }, {
+      "name" : "AssertionError: assert {'response': ...s/entry/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///koubei/employees/entry/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "口碑小二",
+        "uid" : "3f0f08fabe7ef9ba",
+        "parentUid" : "361e78af470d6e0fdcb0acc129ce2d10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979599,
+          "stop" : 1586832979607,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/entry/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"beginTime\": \"2019-10-01 00:00:00\",\\n    \"endTime\": \"2020-01-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "361e78af470d6e0fdcb0acc129ce2d10"
+    }, {
+      "name" : "AssertionError: assert {'response': ...mission/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///koubei/employees/dismission/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "口碑小二",
+        "uid" : "b560bde492c01fc3",
+        "parentUid" : "f7141436a49ea46d4e8936528fe70554",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979617,
+          "stop" : 1586832979618,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/dismission/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"beginTime\": \"2019-10-01 00:00:00\",\\n    \"endTime\": \"2020-01-11 23:59:60\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "f7141436a49ea46d4e8936528fe70554"
+    }, {
+      "name" : "AssertionError: assert {'response': ...434%2C206316'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///koubei/employees/entry/list?entryList=202310%2CE081385%2C453434%2C206316'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "口碑小二",
+        "uid" : "67ad0e1efec083ec",
+        "parentUid" : "b67b5a207345d5ce0d79a98cdbee2e7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979627,
+          "stop" : 1586832979628,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/entry/list?entryList=202310%2CE081385%2C453434%2C206316', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "b67b5a207345d5ce0d79a98cdbee2e7e"
+    }, {
+      "name" : "AssertionError: assert {'response': ...4%2C206316' \"} == '{\"code\": 200...\": \"success\"}'\n  +{'response': \"请求发送失败，详细信息： url=http:///koubei/employees/dismission/list?dismissionList=206396%2CE081385%2C453434%2C206316' \"}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "口碑小二",
+        "uid" : "877cbef7e895dfc6",
+        "parentUid" : "2811b2a47199139654994590c1b6d241",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979639,
+          "stop" : 1586832979641,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': \"/koubei/employees/dismission/list?dismissionList=206396%2CE081385%2C453434%2C206316' \", 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "2811b2a47199139654994590c1b6d241"
+    }, {
+      "name" : "AssertionError: assert {'response': ...000FOU/posts'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///posts/1001A110000000000FOU/posts'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "children" : [ {
+        "name" : "岗位信息",
+        "uid" : "de315ef8114fa229",
+        "parentUid" : "fe31490649a8355ec1afda12fdd7dd9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586832979655,
+          "stop" : 1586832979656,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': '', 'module': '岗位信息', 'url': '/posts/1001A110000000000FOU/posts', 'isRun': 'RUN', 'method': 'GET', 'params': 1.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+      } ],
+      "uid" : "fe31490649a8355ec1afda12fdd7dd9c"
+    }, {
+      "name" : "AssertionError: assert {'response': ...rl=baidu.com'} == 200.0\n  +{'response': '请求发送失败，详细信息： url=baidu.com'}\n  -200.0",
+      "children" : [ {
+        "name" : "flask",
+        "uid" : "d1e6d67c7e90ee6f",
+        "parentUid" : "3b640993f088720c40169535c151e380",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586840897030,
+          "stop" : 1586840897031,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'asc-0006', 'case_module': 'flask', 'case_url': 'baidu.com', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '', 'case_expect': 200.0, 'case_result_code': '', 'case_result_message': ''}" ]
+      } ],
+      "uid" : "3b640993f088720c40169535c151e380"
+    }, {
+      "name" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "children" : [ {
+        "name" : "flask",
+        "uid" : "cd887095764acb10",
+        "parentUid" : "76168fa1565facbde70503f586e6c5d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586843216229,
+          "stop" : 1586843217484,
+          "duration" : 1255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'asc-0005', 'case_module': 'flask', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'isRun': 'RUN', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":true}', 'case_result_code': '', 'case_result_message': ''}" ]
+      } ],
+      "uid" : "76168fa1565facbde70503f586e6c5d4"
+    }, {
+      "name" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 0}'\n  +{'response': '请求发送失败，详细信息： url=https://provider.info.eleme.test/employees/page'}\n  -'{\"code\": 0}'",
+      "children" : [ {
+        "name" : "flask",
+        "uid" : "4037a49f7b794a87",
+        "parentUid" : "97f4b89641c10544319083fd0745537e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587038852415,
+          "stop" : 1587038852470,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'asc-0008', 'case_module': 'flask', 'case_url': 'https://provider.info.eleme.test/employees/page', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '{\\n    \"pageSize\": 1,\\n    \"pageNumber\": 2\\n}', 'case_expect': '{\"code\": 0}', 'case_result_code': '', 'case_result_message': '', 'code': 200.0, 'message': ''}" ]
+      } ],
+      "uid" : "97f4b89641c10544319083fd0745537e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'Response' object is not subscriptable",
+      "children" : [ {
+        "name" : "flask",
+        "uid" : "faaaae97ab3b276a",
+        "parentUid" : "7cf333a800510fa9b9672a5289df0167",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587038869885,
+          "stop" : 1587038870009,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'asc-0006', 'case_module': 'flask', 'case_url': 'http://janusapi.info.eleme.test/api/v1/imageCodes', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '{\"width\":10,\"height\":10}', 'case_expect': '{\"code\": 0}', 'case_result_code': '', 'case_result_message': '', 'code': 0.0, 'message': 'SUCCESS'}" ]
+      }, {
+        "name" : "flask",
+        "uid" : "a20db0bfc5350d6a",
+        "parentUid" : "7cf333a800510fa9b9672a5289df0167",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587038870110,
+          "stop" : 1587038870122,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_id': 'asc-0007', 'case_module': 'flask', 'case_url': 'http://127.0.0.1:8888/login?name=yuhang&pwd=111', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '', 'case_expect': '{\"code\": 200}', 'case_result_code': '', 'case_result_message': '', 'code': 200.0, 'message': '登录成功'}" ]
+      } ],
+      "uid" : "7cf333a800510fa9b9672a5289df0167"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

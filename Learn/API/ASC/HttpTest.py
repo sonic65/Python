@@ -22,15 +22,11 @@ class HttpTest():
         try:
             # 
             url0 = 'http://localhost:8886/'
-            path = './httptest.xls'
+            path = '/Users/sonic/Project/Python/Pytest/data/Test_Case.xls'
             print(self.sign_md5())
             sigRes = self.sign_md5()
-            header = {
-                'Consumer_Service_Id': '3825720472286642210',
-                'Provider_Domain_Id':'1515795216911630337',
-                'Sig':sigRes[0],
-                'Time_Stamp':sigRes[1]
-            }
+            header = {"User-Agent": "Chrome/51.0.2704.103"}
+
             rb = xlrd.open_workbook(path)  # 打开文件
             # print(wb.sheet_names())#获取所有表格名字
             sheet1 = rb.sheet_by_index(0)  # 通过索引获取表格
@@ -42,9 +38,9 @@ class HttpTest():
             for row in range(1, nrows):
                 print('----------------------------------当前执行--------第',row,'行----------------------------------')
                 res = None
-                url = url0+sheet1.row_values(row, 0, 1)[0]
-                method = sheet1.row_values(row, 1, 2)[0]
-                params = sheet1.row_values(row, 2, 3)[0]
+                url = sheet1.row_values(row, 2, 4)[0]
+                method = sheet1.row_values(row, 4, 5)[0]
+                params = sheet1.row_values(row, 5, 6)[0]
                 if (method == 'GET'):
                     if (params == None or params == ''):
                         # 前面已经通过 copy 方法获取了writeOpenXlsx
@@ -58,17 +54,25 @@ class HttpTest():
                     if(params != None and params != '' and len(params) !=0):
                         data_json = json.dumps(json.loads(params))
                     res = self.post_invoke(url, data_json, header)
-                print('执行结果返回:',str(res))
+
+                #返回所有结果    
+                # print('执行结果返回:',str(res))  
+                #返回code和message   
+                code = res['code']
+                msg = res['message']
+                # print('测试接口：',url,'\n测试结果：code：',code,",“message：",msg)       
+                print('测试接口：',url,'\n测试结果：',res)                     
+
                 if(res != None):
                     code = res['code']
-                    msg = res['Data']
-                    wbsheet1.write(row, 3, code)
-                    wbsheet1.write(row, 4, str(msg))
+                    msg = res['message']
+                    wbsheet1.write(row, 9, code)
+                    wbsheet1.write(row, 10, str(msg))
                     res=None
                     data_json=None
             wb.save(path)
         except BaseException as e:
-            print("Unexpected error:", sys.exc_info()[0])
+            print("Unexpected error:", sys.exc_info()[0],sys.exc_info())
             print('发生异常')
         else:
             print('未发生异常')
@@ -97,7 +101,6 @@ class HttpTest():
     def sign_md5(self):
         t = time.time()
         timeStamp = (round(t * 1000))
-        print(timeStamp)
         signStr = '3825720472286642210' + "-" + '1515795216911630337' + "-" + str(
             timeStamp) + "-" + 'ee54bcd1-662c-47ae-8117-76946e3d4e1f'
         m1 = hashlib.md5()

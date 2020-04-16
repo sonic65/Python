@@ -1,0 +1,455 @@
+{
+  "uid" : "cd887095764acb10",
+  "name" : "flask",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "7e828afbaedfa893de205d6534b52ff9",
+  "time" : {
+    "start" : 1586843216229,
+    "stop" : 1586843217484,
+    "duration" : 1255
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>asc-0005",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>asc-0005</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x104e298d0>\ncase = {'case_expect': '{\"success\":true}', 'case_id': 'asc-0005', 'case_method': 'post', 'case_module': 'flask', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_id']))\n        allure.dynamic.feature(case['case_module'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       AssertionError: assert 'Error' == {'success': True}\nE         +'Error'\nE         -{'success': True}\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586843216007,
+      "stop" : 1586843216007,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586843217490,
+      "stop" : 1586843225632,
+      "duration" : 8142
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'mail_pass' is not defined\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.7/site-packages/allure_commons/_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/fixtures.py\", line 800, in _teardown_yield_fixture\n    next(it)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/python.py\", line 707, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/usr/local/lib/python3.7/site-packages/_pytest/python.py\", line 634, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/sonic/Project/Python/Pytest/scripts/test_case.py\", line 41, in teardown_class\n    EmailHandler().send_email()\n  File \"/Users/sonic/Project/Python/Pytest/uti/EmailHandler.py\", line 59, in send_email\n    smtp_obj.login(mail_user, mail_pass)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "flask"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "79444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'asc-0005', 'case_module': 'flask', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'isRun': 'RUN', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":true}', 'case_result_code': '', 'case_result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "256d1e13713409d4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586843096953,
+        "stop" : 1586843098048,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "f717ab0cab9b78ed",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586841654072,
+        "stop" : 1586841654933,
+        "duration" : 861
+      }
+    }, {
+      "uid" : "9dcccc90aa118a57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586841421865,
+        "stop" : 1586841423315,
+        "duration" : 1450
+      }
+    }, {
+      "uid" : "be338c0c3e7a710f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586841396833,
+        "stop" : 1586841397637,
+        "duration" : 804
+      }
+    }, {
+      "uid" : "b9b539658df45cea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586841309451,
+        "stop" : 1586841309949,
+        "duration" : 498
+      }
+    }, {
+      "uid" : "f5f9b9aa1a83ce7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586840895736,
+        "stop" : 1586840897022,
+        "duration" : 1286
+      }
+    }, {
+      "uid" : "bc4702a8a52e92b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'success': True}\n  +'Error'\n  -{'success': True}",
+      "time" : {
+        "start" : 1586840720152,
+        "stop" : 1586840720654,
+        "duration" : 502
+      }
+    }, {
+      "uid" : "c912caaa0742da66",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586840470582,
+        "stop" : 1586840470583,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f45370bd585d5ad9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'code': 1000...e': '参数不能为空！'}\n  +'Error'\n  -{'code': 10002, 'message': '参数不能为空！'}",
+      "time" : {
+        "start" : 1586839776481,
+        "stop" : 1586839777206,
+        "duration" : 725
+      }
+    }, {
+      "uid" : "65b9088c7d2242ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Error' == {'code': 1000...e': '参数不能为空！'}\n  +'Error'\n  -{'code': 10002, 'message': '参数不能为空！'}",
+      "time" : {
+        "start" : 1586835998379,
+        "stop" : 1586836000084,
+        "duration" : 1705
+      }
+    }, {
+      "uid" : "cc7f268761f95e9c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835934369,
+        "stop" : 1586835934370,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4a96abf8da2694d9",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_description'",
+      "time" : {
+        "start" : 1586835901174,
+        "stop" : 1586835901175,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a8ca84445abbb14",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_mudule'",
+      "time" : {
+        "start" : 1586835860604,
+        "stop" : 1586835860604,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9898db558e828181",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'module'",
+      "time" : {
+        "start" : 1586835816965,
+        "stop" : 1586835816966,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2a010d92f0e54ff0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'module'",
+      "time" : {
+        "start" : 1586835795519,
+        "stop" : 1586835795519,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f8573256e97618a9",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'module'",
+      "time" : {
+        "start" : 1586835753516,
+        "stop" : 1586835753516,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99b399e2129280dc",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'module'",
+      "time" : {
+        "start" : 1586835529303,
+        "stop" : 1586835529304,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8636363a26145aa5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835368065,
+        "stop" : 1586835369871,
+        "duration" : 1806
+      }
+    }, {
+      "uid" : "81efe08c50365a54",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835300740,
+        "stop" : 1586835301608,
+        "duration" : 868
+      }
+    }, {
+      "uid" : "6e26a6c1d4995d5c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835271142,
+        "stop" : 1586835271768,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "7c8eb2c54de0646",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835105955,
+        "stop" : 1586835106887,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "4001b8e27f14bcf5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586835004319,
+        "stop" : 1586835004320,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a82b166c1badd5eb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586834756394,
+        "stop" : 1586834757212,
+        "duration" : 818
+      }
+    }, {
+      "uid" : "74b2791c6d20cb57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586834611800,
+        "stop" : 1586834612732,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "905af0283dad083e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586834050977,
+        "stop" : 1586834053247,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "72a48b1068de1b4d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586833795136,
+        "stop" : 1586833796969,
+        "duration" : 1833
+      }
+    }, {
+      "uid" : "b3638c7104551c46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586833631224,
+        "stop" : 1586833632332,
+        "duration" : 1108
+      }
+    }, {
+      "uid" : "86ec8709adcdfd78",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://https://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+      "time" : {
+        "start" : 1586833598644,
+        "stop" : 1586833598690,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "1144daff159482e6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...yees/E089288'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E089288'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832979346,
+        "stop" : 1586832979347,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c7f3afea9e26226a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...yees/E089288'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E089288'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832919874,
+        "stop" : 1586832919875,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cfabfd793e32d011",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...yees/E089288'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/E089288'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832781178,
+        "stop" : 1586832781179,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8e05cdb35a724f2d",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832528143,
+        "stop" : 1586832528145,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7e89b78bb76e28bd",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832434552,
+        "stop" : 1586832434553,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d5a9e761334cae10",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832153639,
+        "stop" : 1586832153640,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4b0bd06d5e97f83c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586831905975,
+        "stop" : 1586831905976,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3fb5d4df58139a5f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_expect'",
+      "time" : {
+        "start" : 1586831458048,
+        "stop" : 1586831458048,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa203dbb66af412e",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586449153320,
+        "stop" : 1586449153321,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "da3a1dd20643ccfb",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/Users/sonic/Project/Python/Pytest/logs/2020-04-09.log'",
+      "time" : {
+        "start" : 1586446922269,
+        "stop" : 1586446922270,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4486a4f5d7542709",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '/Users/sonic/Project/Python/Pytest/logs/2020-04-09.log'",
+      "time" : {
+        "start" : 1586446302767,
+        "stop" : 1586446302767,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd887095764acb10.json",
+  "parameterValues" : [ "{'case_id': 'asc-0005', 'case_module': 'flask', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'isRun': 'RUN', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":true}', 'case_result_code': '', 'case_result_message': ''}" ]
+}

@@ -1,0 +1,116 @@
+{
+  "uid" : "f52e35b7ffb724c5",
+  "name" : "flask",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "fac1fcb6ccb71c4ed49bb5fbd5696efb",
+  "time" : {
+    "start" : 1586833598627,
+    "stop" : 1586833598631,
+    "duration" : 4
+  },
+  "description" : "<font color=\"red\">请求URL：</font>127.0.0.1:8888/login?name=yuhang&pwd=<br /><font color=\"red\">期望值：</font>asc-0004",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>127.0.0.1:8888/login?name=yuhang&amp;pwd=<br /><font color=\"red\">期望值：</font>asc-0004</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...=yuhang&pwd='} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd='}\n  -'{\"code\": 10001, \"message\": \"参数不能为空！\"}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10c2afc10>, case = {'expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'id': 'asc-0004', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...=yuhang&pwd='} == '{\"code\": 100...\": \"参数不能为空！\"}'\nE         +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd='}\nE         -'{\"code\": 10001, \"message\": \"参数不能为空！\"}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586833598418,
+      "stop" : 1586833598418,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>127.0.0.1:8888/login?name=yuhang&pwd=<br /><font color=\"red\">期望值：</font>asc-0004",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...=yuhang&pwd='} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd='}\n  -'{\"code\": 10001, \"message\": \"参数不能为空！\"}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10c2afc10>, case = {'expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'id': 'asc-0004', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...=yuhang&pwd='} == '{\"code\": 100...\": \"参数不能为空！\"}'\nE         +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd='}\nE         -'{\"code\": 10001, \"message\": \"参数不能为空！\"}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "455bcbbb56ade960",
+      "name" : "log",
+      "source" : "455bcbbb56ade960.txt",
+      "type" : "text/plain",
+      "size" : 157
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586833598697,
+      "stop" : 1586833608617,
+      "duration" : 9920
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "flask"
+  }, {
+    "name" : "story",
+    "value" : "POST"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "73123-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': 'asc-0004', 'module': 'flask', 'url': '127.0.0.1:8888/login?name=yuhang&pwd=', 'isRun': 'RUN', 'method': 'POST', 'params': '', 'expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f52e35b7ffb724c5.json",
+  "parameterValues" : [ "{'id': 'asc-0004', 'module': 'flask', 'url': '127.0.0.1:8888/login?name=yuhang&pwd=', 'isRun': 'RUN', 'method': 'POST', 'params': '', 'expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'result_code': '', 'result_message': ''}" ]
+}

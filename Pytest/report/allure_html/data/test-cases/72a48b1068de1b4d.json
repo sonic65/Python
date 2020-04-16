@@ -1,0 +1,116 @@
+{
+  "uid" : "72a48b1068de1b4d",
+  "name" : "flask",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "7e828afbaedfa893de205d6534b52ff9",
+  "time" : {
+    "start" : 1586833795136,
+    "stop" : 1586833796969,
+    "duration" : 1833
+  },
+  "description" : "<font color=\"red\">请求URL：</font>cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>asc-0005",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>asc-0005</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10a0cdcd0>, case = {'expect': '{\"code\": 10002, \"message\": \"参数不能为空！\"}', 'id': 'asc-0005', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\nE         +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\nE         -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586833794975,
+      "stop" : 1586833794975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>asc-0005",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\n  +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\n  -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10a0cdcd0>, case = {'expect': '{\"code\": 10002, \"message\": \"参数不能为空！\"}', 'id': 'asc-0005', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ser/alsotang'} == '{\"code\": 100...\": \"参数不能为空！\"}'\nE         +{'response': '请求发送失败，详细信息： url=http://cnodejs.org/api/v1/user/alsotang'}\nE         -'{\"code\": 10002, \"message\": \"参数不能为空！\"}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ed35c020f268b6f",
+      "name" : "log",
+      "source" : "1ed35c020f268b6f.txt",
+      "type" : "text/plain",
+      "size" : 232
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586833796977,
+      "stop" : 1586833813675,
+      "duration" : 16698
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "flask"
+  }, {
+    "name" : "story",
+    "value" : "POST"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "73400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': 'asc-0005', 'module': 'flask', 'url': 'cnodejs.org/api/v1/user/alsotang', 'isRun': 'RUN', 'method': 'POST', 'params': '', 'expect': '{\"code\": 10002, \"message\": \"参数不能为空！\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72a48b1068de1b4d.json",
+  "parameterValues" : [ "{'id': 'asc-0005', 'module': 'flask', 'url': 'cnodejs.org/api/v1/user/alsotang', 'isRun': 'RUN', 'method': 'POST', 'params': '', 'expect': '{\"code\": 10002, \"message\": \"参数不能为空！\"}', 'result_code': '', 'result_message': ''}" ]
+}

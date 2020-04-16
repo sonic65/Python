@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert '你好' in 'hello world'",
       "children" : [ {
         "name" : "test_case02",
-        "uid" : "c99c380225a7dc63",
+        "uid" : "9ea953ff0aa2f068",
         "parentUid" : "09a75adb253da474670c2a2145453e8d",
         "status" : "failed",
         "time" : {
-          "start" : 1586499308490,
-          "stop" : 1586499308492,
-          "duration" : 2
+          "start" : 1586500275646,
+          "stop" : 1586500275647,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
