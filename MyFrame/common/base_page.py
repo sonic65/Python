@@ -3,7 +3,7 @@ import time
 from selenium.common.exceptions import NoSuchElementException
 import os.path
 import sys   
-sys.path.append('/Users/sonic/Project/Python/MyFrame/Common')
+sys.path.append('./Common')
 from logger import Logger
  
 # create a logger instance
