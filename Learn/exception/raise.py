@@ -1,4 +1,5 @@
-#raise 语句抛出一个指定的异常。
+#raise  自定义异常,
+# 语句抛出一个指定的异常。
 #raise [Exception [, args [, traceback]]]
 
 x = 10

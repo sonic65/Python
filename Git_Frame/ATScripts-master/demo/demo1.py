@@ -53,6 +53,7 @@ import xlrd
 #     l.append(dict(zip(title, sheet.row_values(i))))
 #
 # print(l)
+import json
 
 
 import pytest
@@ -77,8 +78,10 @@ def get_excel_data():
     for i in range(1, rows):
         # print(sheet.row_values(i))
         l.append(dict(zip(title, sheet.row_values(i))))
+        print(h)
 
     return l
+get_excel_data()
 
 # @pytest.mark.parametrize('case', get_excel_data())
 # def test_case(case):
@@ -93,11 +96,12 @@ import json
 # for value in get_excel_data():
 #     print(value['case_expect'], json.loads(value['case_expect']))
 
-import requests
-from bs4 import BeautifulSoup
-r = requests.get('https://www.cnblogs.com/Neeo/articles/11667962.html')
-s = BeautifulSoup(r.text, 'html.parser')
-print(s.find('title').text)
+# import requests
+# from bs4 import BeautifulSoup
+# r = requests.get('https://www.cnblogs.com/Neeo/articles/11667962.html')
+# s = BeautifulSoup(r.text, 'html.parser')
+# print(s)
+# print(s.find('title').text)
 
 
 

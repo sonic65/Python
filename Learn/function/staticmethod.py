@@ -1,0 +1,4 @@
+
+@staticmethod
+def static():
+    fun
