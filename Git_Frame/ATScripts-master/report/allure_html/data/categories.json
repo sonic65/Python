@@ -4,39 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 +",
+      "name" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 -\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园",
       "children" : [ {
         "name" : "cnblogs",
-        "uid" : "2fa0a812ab901c17",
-        "parentUid" : "f35a7bd44e4fde614daa5bc822cc6b0b",
+        "uid" : "88ee61529c0e4f96",
+        "parentUid" : "5c5c08a2c07b60c7a7d61f514debf412",
         "status" : "failed",
         "time" : {
-          "start" : 1575858805368,
-          "stop" : 1575858806174,
-          "duration" : 806
+          "start" : 1586842935017,
+          "stop" : 1586842935338,
+          "duration" : 321
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'case_project': 'cnblogs', 'case_description': '博客园博客信息', 'case_url': 'https://www.cnblogs.com/Neeo/articles/11667962.html', 'case_method': 'get', 'case_params': '', 'case_expect': 'JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2', 'other': ''}" ]
       } ],
-      "uid" : "f35a7bd44e4fde614daa5bc822cc6b0b"
+      "uid" : "5c5c08a2c07b60c7a7d61f514debf412"
     }, {
-      "name" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+      "name" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
       "children" : [ {
         "name" : "cnodejs项目",
-        "uid" : "236319a84cfb850a",
-        "parentUid" : "63a3e74880b148679ce62d3d0719a5d2",
+        "uid" : "fc06f5667f175dab",
+        "parentUid" : "7efbdf0a42422dfe04be5078cdf8be1e",
         "status" : "failed",
         "time" : {
-          "start" : 1586446809632,
-          "stop" : 1586446885442,
-          "duration" : 75810
+          "start" : 1586844428432,
+          "stop" : 1586844428544,
+          "duration" : 112
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+        "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'http://www.baidu.com', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'other': ''}" ]
       } ],
-      "uid" : "63a3e74880b148679ce62d3d0719a5d2"
+      "uid" : "7efbdf0a42422dfe04be5078cdf8be1e"
+    }, {
+      "name" : "AssertionError: assert {'response': ...lect/collect'} == '{\"code\": 1}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1/topic_collect/collect'}\n  -'{\"code\": 1}'",
+      "children" : [ {
+        "name" : "cnodejs项目",
+        "uid" : "fc213d61d43cb2f9",
+        "parentUid" : "40ab843a725a9a8d2f44fe4233a61c53",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586844428642,
+          "stop" : 1586844429783,
+          "duration" : 1141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'get /topic/:id 主题详情', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"code\": 1}', 'other': ''}" ]
+      } ],
+      "uid" : "40ab843a725a9a8d2f44fe4233a61c53"
+    }, {
+      "name" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
+      "children" : [ {
+        "name" : "cnodejs项目",
+        "uid" : "6032b76636f2073b",
+        "parentUid" : "9fd8b114f7dc669ffef6680c72631028",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586844431397,
+          "stop" : 1586844431397,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+      } ],
+      "uid" : "9fd8b114f7dc669ffef6680c72631028"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

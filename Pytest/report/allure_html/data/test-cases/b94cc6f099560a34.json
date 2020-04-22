@@ -1,0 +1,110 @@
+{
+  "uid" : "b94cc6f099560a34",
+  "name" : "test_case[case2]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "fac1fcb6ccb71c4ed49bb5fbd5696efb",
+  "time" : {
+    "start" : 1586835529291,
+    "stop" : 1586835529292,
+    "duration" : 1
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'module'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10bdb4e90>\ncase = {'case_expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'case_id': 'asc-0004', 'case_method': 'POST', 'case_module': 'flask', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['module'])\nE       KeyError: 'module'\n\nscripts/test_case.py:29: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586835529144,
+      "stop" : 1586835529144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'module'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x10bdb4e90>\ncase = {'case_expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'case_id': 'asc-0004', 'case_method': 'POST', 'case_module': 'flask', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['module'])\nE       KeyError: 'module'\n\nscripts/test_case.py:29: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7b0573c98989dd4",
+      "name" : "log",
+      "source" : "e7b0573c98989dd4.txt",
+      "type" : "text/plain",
+      "size" : 150
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586835529323,
+      "stop" : 1586835539431,
+      "duration" : 10108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "74842-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_id': 'asc-0004', 'case_module': 'flask', 'case_url': '127.0.0.1:8888/login?name=yuhang&pwd=', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '', 'case_expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'case_result_code': '', 'case_result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b94cc6f099560a34.json",
+  "parameterValues" : [ "{'case_id': 'asc-0004', 'case_module': 'flask', 'case_url': '127.0.0.1:8888/login?name=yuhang&pwd=', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '', 'case_expect': '{\"code\": 10001, \"message\": \"参数不能为空！\"}', 'case_result_code': '', 'case_result_message': ''}" ]
+}

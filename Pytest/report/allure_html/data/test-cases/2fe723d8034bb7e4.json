@@ -1,0 +1,185 @@
+{
+  "uid" : "2fe723d8034bb7e4",
+  "name" : "self",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "dc8fb2cf6ad06e6df014131d86f63c84",
+  "time" : {
+    "start" : 1586832979509,
+    "stop" : 1586832979513,
+    "duration" : 4
+  },
+  "description" : "<font color=\"red\">请求URL：</font>/selfhelp/emp/0001A910000000006UYK/itss<br /><font color=\"red\">期望值：</font>",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>/selfhelp/emp/0001A910000000006UYK/itss<br /><font color=\"red\">期望值：</font></p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x105429c50>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586832979211,
+      "stop" : 1586832979211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>/selfhelp/emp/0001A910000000006UYK/itss<br /><font color=\"red\">期望值：</font>",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x105429c50>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "21acba11ccdf0b76",
+      "name" : "log",
+      "source" : "21acba11ccdf0b76.txt",
+      "type" : "text/plain",
+      "size" : 159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586832979662,
+      "stop" : 1586832986770,
+      "duration" : 7108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "self"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "72767-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': '', 'module': 'self', 'url': '/selfhelp/emp/0001A910000000006UYK/itss', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c58f5eef782f17b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832920003,
+        "stop" : 1586832920004,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dece96f1f1437ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...0006UYK/itss'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///selfhelp/emp/0001A910000000006UYK/itss'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832781346,
+        "stop" : 1586832781347,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2d9f50852b89ec52",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832528284,
+        "stop" : 1586832528285,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b81b81d81fb81467",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832434668,
+        "stop" : 1586832434669,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f0f0da8c1a58b9b0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832153769,
+        "stop" : 1586832153770,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "85aab89db82846cf",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586831906122,
+        "stop" : 1586831906124,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1595a24f43d3f3c2",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_expect'",
+      "time" : {
+        "start" : 1586831458237,
+        "stop" : 1586831458237,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2fe723d8034bb7e4.json",
+  "parameterValues" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/emp/0001A910000000006UYK/itss', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+}

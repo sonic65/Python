@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 09-Apr-2020 at 23:41:46 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 14-Apr-2020 at 14:07:24 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,8 +262,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.5</td></tr></table>
     <h2>Summary</h2>
-    <p>8 tests ran in 101.65 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>8 tests ran in 16.88 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">4 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,44 +277,44 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">scripts/test_case.py::Test_case::test_case[case3]</td>
-          <td class="col-duration">75.81</td>
+          <td class="col-name">scripts/test_case.py::Test_case::test_case[case0]</td>
+          <td class="col-duration">0.11</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x10c5a6110&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;post /topic_collect/de_collect 取消主题&#x27;, &#x27;case_expect&#x27;: &#x27;{&quot;success&quot;:false}&#x27;, &#x27;case_method&#x27;: &#x27;post&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       assert {&#x27;response&#x27;: ...t/de_collect&#x27;} == &#x27;{&quot;success&quot;:false}&#x27;</span><br/><span class="error">E         +{&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect&#x27;}</span><br/><span class="error">E         -&#x27;{&quot;success&quot;:false}&#x27;</span><br/><br/>scripts/test_case.py:34: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[1m[31mERROR   [0m 接口测试:RequestHandler.py:47 {&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=https://cnodejs.org/api/v1//topic_collect/de_collect&#x27;}<br/></div></td></tr></tbody>
+            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x106ed1e10&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;get /topics 主题首页&#x27;, &#x27;case_expect&#x27;: &#x27;{&quot;code&quot;: 200, &quot;message&quot;: &quot;登录成功&quot;}&#x27;, &#x27;case_method&#x27;: &#x27;get&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       AssertionError: assert &#x27;ç\x99¾åº¦ä¸\...x9f¥é\x81\x93&#x27; == {&#x27;code&#x27;: 200,...sage&#x27;: &#x27;登录成功&#x27;}</span><br/><span class="error">E         +&#x27;ç\x99¾åº¦ä¸\x80ä¸\x8bï¼\x8cä½\xa0å°±ç\x9f¥é\x81\x93&#x27;</span><br/><span class="error">E         -{&#x27;code&#x27;: 200, &#x27;message&#x27;: &#x27;登录成功&#x27;}</span><br/><br/>scripts/test_case.py:34: AssertionError<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">scripts/test_case.py::Test_case::test_case[case1]</td>
+          <td class="col-duration">1.14</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x10780ee50&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;get /topic/:id 主题详情&#x27;, &#x27;case_expect&#x27;: &#x27;{&quot;code&quot;: 1}&#x27;, &#x27;case_method&#x27;: &#x27;post&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       assert {&#x27;response&#x27;: ...lect/collect&#x27;} == &#x27;{&quot;code&quot;: 1}&#x27;</span><br/><span class="error">E         +{&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=https://cnodejs.org/api/v1/topic_collect/collect&#x27;}</span><br/><span class="error">E         -&#x27;{&quot;code&quot;: 1}&#x27;</span><br/><br/>scripts/test_case.py:34: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[1m[31mERROR   [0m 接口测试:RequestHandler.py:47 {&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=https://cnodejs.org/api/v1/topic_collect/collect&#x27;}<br/></div></td></tr></tbody>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">scripts/test_case.py::Test_case::test_case[case3]</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x106f0be90&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;post /topic_collect/de_collect 取消主题&#x27;, &#x27;case_expect&#x27;: &#x27;{&quot;success&quot;:false}&#x27;, &#x27;case_method&#x27;: &#x27;post&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       assert {&#x27;response&#x27;: ...t/de_collect&#x27;} == &#x27;{&quot;success&quot;:false}&#x27;</span><br/><span class="error">E         +{&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=cnodejs.org/api/v1//topic_collect/de_collect&#x27;}</span><br/><span class="error">E         -&#x27;{&quot;success&quot;:false}&#x27;</span><br/><br/>scripts/test_case.py:34: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[1m[31mERROR   [0m 接口测试:RequestHandler.py:47 {&#x27;response&#x27;: &#x27;请求发送失败，详细信息： url=cnodejs.org/api/v1//topic_collect/de_collect&#x27;}<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">scripts/test_case.py::Test_case::test_case[case7]</td>
-          <td class="col-duration">0.13</td>
+          <td class="col-duration">0.80</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x10cfad990&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;博客园博客信息&#x27;, &#x27;case_expect&#x27;: &#x27;JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2&#x27;, &#x27;case_method&#x27;: &#x27;get&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       AssertionError: assert &#x27;JavaScript -... - 听雨危楼 - 博客园&#x27; == &#x27;JavaScript -...- 听雨危楼 - 博客园2&#x27;</span><br/><span class="error">E         - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2</span><br/><span class="error">E         ?                                 -</span><br/><span class="error">E         + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园</span><br/><br/>scripts/test_case.py:34: AssertionError<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">scripts/test_case.py::Test_case::test_case[case0]</td>
-          <td class="col-duration">1.05</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m 发送请求:RequestHandler.py:59 https://cnodejs.org/api/v1/topics 执行成功<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">scripts/test_case.py::Test_case::test_case[case1]</td>
-          <td class="col-duration">0.68</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m 发送请求:RequestHandler.py:59 https://cnodejs.org/api/v1/topic/5433d5e4e737cbe96dcef312 执行成功<br/></div></td></tr></tbody>
+            <div class="log">self = &lt;scripts.test_case.Test_case object at 0x10785c990&gt;<br/>case = {&#x27;case_description&#x27;: &#x27;博客园博客信息&#x27;, &#x27;case_expect&#x27;: &#x27;JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2&#x27;, &#x27;case_method&#x27;: &#x27;get&#x27;, &#x27;case_params&#x27;: &#x27;&#x27;, ...}<br/><br/>    @pytest.mark.parametrize(&#x27;case&#x27;, ExcelHandler().get_excel_data)<br/>    def test_case(self, case):<br/>        &quot;&quot;&quot;  执行断言 &quot;&quot;&quot;<br/>        # print(case)<br/>        # 发请求<br/>        response = RequestHandler(case).get_response<br/>    <br/>        # 制作 allure 报告<br/>        allure.dynamic.title(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.description(&#x27;&lt;font color=&quot;red&quot;&gt;请求URL：&lt;/font&gt;{}&lt;br /&gt;&#x27;<br/>                                   &#x27;&lt;font color=&quot;red&quot;&gt;期望值：&lt;/font&gt;{}&#x27;.format(case[&#x27;case_url&#x27;], case[&#x27;case_description&#x27;]))<br/>        allure.dynamic.feature(case[&#x27;case_project&#x27;])<br/>        allure.dynamic.story(case[&#x27;case_method&#x27;])<br/>&gt;       assert response[0] == response[1]<br/><span class="error">E       AssertionError: assert &#x27;JavaScript -... - 听雨危楼 - 博客园&#x27; == &#x27;JavaScript -...- 听雨危楼 - 博客园2&#x27;</span><br/><span class="error">E         - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2</span><br/><span class="error">E         ?                                 -</span><br/><span class="error">E         + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园</span><br/><br/>scripts/test_case.py:34: AssertionError<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">scripts/test_case.py::Test_case::test_case[case2]</td>
-          <td class="col-duration">2.17</td>
+          <td class="col-duration">1.60</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -323,7 +323,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">scripts/test_case.py::Test_case::test_case[case4]</td>
-          <td class="col-duration">0.92</td>
+          <td class="col-duration">0.63</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -332,7 +332,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">scripts/test_case.py::Test_case::test_case[case5]</td>
-          <td class="col-duration">2.89</td>
+          <td class="col-duration">1.84</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -341,7 +341,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">scripts/test_case.py::Test_case::test_case[case6]</td>
-          <td class="col-duration">0.44</td>
+          <td class="col-duration">1.15</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

@@ -1,12 +1,10 @@
 base on PyTest
 
 refer:
-
-https://www.jianshu.com/p/932a4d9f78f8
-https://www.jianshu.com/p/e31c54bf15ee
 https://www.cnblogs.com/zhangshan33/p/11940356.html
-https://github.com/zhangshan33/ATScripts
 
+git：
+https://github.com/zhangshan33/ATScripts
 
 Request.py 封装request方法，可以支持多协议扩展（get\post\put）
 Config.py读取配置文件，包括：不同环境的配置，email相关配置

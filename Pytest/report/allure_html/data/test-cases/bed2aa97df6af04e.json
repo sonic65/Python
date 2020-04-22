@@ -1,0 +1,185 @@
+{
+  "uid" : "bed2aa97df6af04e",
+  "name" : "nc",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "c8e24811905478eca14f524f86c6ae02",
+  "time" : {
+    "start" : 1586832979572,
+    "stop" : 1586832979573,
+    "duration" : 1
+  },
+  "description" : "<font color=\"red\">请求URL：</font>/nc/employees/page/getPsndoc<br /><font color=\"red\">期望值：</font>",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>/nc/employees/page/getPsndoc<br /><font color=\"red\">期望值：</font></p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x105411090>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586832979211,
+      "stop" : 1586832979211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>/nc/employees/page/getPsndoc<br /><font color=\"red\">期望值：</font>",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x105411090>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d22e85258c0edc4",
+      "name" : "log",
+      "source" : "d22e85258c0edc4.txt",
+      "type" : "text/plain",
+      "size" : 148
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586832979662,
+      "stop" : 1586832986770,
+      "duration" : 7108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "nc"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "72767-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91c0306ef695e1d1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832920052,
+        "stop" : 1586832920053,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "166e6fbf3872c228",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ge/getPsndoc'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///nc/employees/page/getPsndoc'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832781417,
+        "stop" : 1586832781418,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9d4956b7e6e40fa0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832528336,
+        "stop" : 1586832528337,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "160ee101d34386fb",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832434714,
+        "stop" : 1586832434715,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a51c74af9c4ae5c2",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832153815,
+        "stop" : 1586832153817,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5e4a8273e6406327",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586831906181,
+        "stop" : 1586831906182,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f56fcb0e52111daf",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_expect'",
+      "time" : {
+        "start" : 1586831458310,
+        "stop" : 1586831458310,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bed2aa97df6af04e.json",
+  "parameterValues" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+}

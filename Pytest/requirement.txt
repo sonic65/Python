@@ -1,8 +1,5 @@
 pytest
-pytest-xdist
-pytest-rerunfailures
-allure-pytest
+allure
 xlrd
 xlwt
 xlutils
-paramiko

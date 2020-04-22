@@ -1,0 +1,185 @@
+{
+  "uid" : "34d4e57e39e059a5",
+  "name" : "employees",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "ca62f509d63a7b419fc24a32a92b087d",
+  "time" : {
+    "start" : 1586832979365,
+    "stop" : 1586832979366,
+    "duration" : 1
+  },
+  "description" : "<font color=\"red\">请求URL：</font>/employees/page<br /><font color=\"red\">期望值：</font>",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>/employees/page<br /><font color=\"red\">期望值：</font></p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x104a91610>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586832979211,
+      "stop" : 1586832979211,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>/employees/page<br /><font color=\"red\">期望值：</font>",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x104a91610>, case = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['module'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['url'], case['id']))\n        allure.dynamic.feature(case['module'])\n        allure.dynamic.story(case['method'])\n>       assert response[0] == response[1]\nE       assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\nE         +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\nE         -'{\"code\": 200, \"message\": \"success\"}'\n\nscripts/test_case.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de2eba97e52a1d06",
+      "name" : "log",
+      "source" : "de2eba97e52a1d06.txt",
+      "type" : "text/plain",
+      "size" : 135
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586832979662,
+      "stop" : 1586832986770,
+      "duration" : 7108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "employees"
+  }, {
+    "name" : "story",
+    "value" : "GET"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "72767-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\":8,\"pageNumber\":10,\"postState\":\"Y\",\"mainJob\":\"Y\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f9128a2a5a53aae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832919896,
+        "stop" : 1586832919897,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9601ac698dcc2972",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...ployees/page'} == '{\"code\": 200...\": \"success\"}'\n  +{'response': '请求发送失败，详细信息： url=http:///employees/page'}\n  -'{\"code\": 200, \"message\": \"success\"}'",
+      "time" : {
+        "start" : 1586832781199,
+        "stop" : 1586832781201,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "52eff9bd4bf7b7b6",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832528171,
+        "stop" : 1586832528172,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "36681deb2cae8cfb",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832434574,
+        "stop" : 1586832434574,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "408ff980eaf6ab77",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586832153659,
+        "stop" : 1586832153659,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27da8ce23bad321c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_project'",
+      "time" : {
+        "start" : 1586831905999,
+        "stop" : 1586831906000,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "72d3609597e109fb",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'case_expect'",
+      "time" : {
+        "start" : 1586831458072,
+        "stop" : 1586831458072,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "34d4e57e39e059a5.json",
+  "parameterValues" : [ "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\":8,\"pageNumber\":10,\"postState\":\"Y\",\"mainJob\":\"Y\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+}

@@ -1,0 +1,349 @@
+{
+  "uid" : "fc06f5667f175dab",
+  "name" : "cnodejs项目",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "8969fb93535c3ccbd57d0d36069d62f2",
+  "time" : {
+    "start" : 1586844428432,
+    "stop" : 1586844428544,
+    "duration" : 112
+  },
+  "description" : "<font color=\"red\">请求URL：</font>http://www.baidu.com<br /><font color=\"red\">期望值：</font>get /topics 主题首页",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>http://www.baidu.com<br /><font color=\"red\">期望值：</font>get /topics 主题首页</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x106ed1e10>\ncase = {'case_description': 'get /topics 主题首页', 'case_expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'case_method': 'get', 'case_params': '', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n        allure.dynamic.title(case['case_project'])\n        allure.dynamic.description('<font color=\"red\">请求URL：</font>{}<br />'\n                                   '<font color=\"red\">期望值：</font>{}'.format(case['case_url'], case['case_description']))\n        allure.dynamic.feature(case['case_project'])\n        allure.dynamic.story(case['case_method'])\n>       assert response[0] == response[1]\nE       AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\nE         +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\nE         -{'code': 200, 'message': '登录成功'}\n\nscripts/test_case.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "get"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "81226-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'http://www.baidu.com', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60dc0809a4f81cdc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842927410,
+        "stop" : 1586842927721,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "62cac04f3dfebcf4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842909037,
+        "stop" : 1586842909147,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "77076860937b7034",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842860042,
+        "stop" : 1586842860335,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "cdb0fa5c11df6a4e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842831872,
+        "stop" : 1586842832008,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "a07ca94b8aaa264e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842751531,
+        "stop" : 1586842751629,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "9767bfad56a2f570",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842613315,
+        "stop" : 1586842613412,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "7d157c3212d6173c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842532395,
+        "stop" : 1586842532463,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "8646914878c6498a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842181502,
+        "stop" : 1586842181558,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "4a956d8a17746ba0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842154476,
+        "stop" : 1586842154525,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "8ceaedf156741950",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842118534,
+        "stop" : 1586842118605,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "1a3bf5deaba33114",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
+      "time" : {
+        "start" : 1586842071963,
+        "stop" : 1586842072024,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "911749d4d6e46845",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=https://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841894548,
+        "stop" : 1586841894598,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "ac4c4be03479e695",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841840992,
+        "stop" : 1586841841032,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "328a71659965846e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841756810,
+        "stop" : 1586841756847,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "94bdd510727c240",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841703563,
+        "stop" : 1586841703609,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "ef7179a6841a28d3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841152259,
+        "stop" : 1586841152327,
+        "duration" : 68
+      }
+    }, {
+      "uid" : "47c349b56a7d9f8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=https://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586841099689,
+        "stop" : 1586841099816,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "89f5c93b63f6a478",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=https://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586840656811,
+        "stop" : 1586840656864,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "b181d6889737559",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=http://127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586840630600,
+        "stop" : 1586840630646,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "ada6852eb94c2c85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert {'response': ...hang&pwd=111'} == '{\"code\": 200...age\": \"登录成功\"}'\n  +{'response': '请求发送失败，详细信息： url=127.0.0.1:8888/login?name=yuhang&pwd=111'}\n  -'{\"code\": 200, \"message\": \"登录成功\"}'",
+      "time" : {
+        "start" : 1586840594881,
+        "stop" : 1586840594883,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e03412552b18fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586839974526,
+        "stop" : 1586839975524,
+        "duration" : 998
+      }
+    }, {
+      "uid" : "13196b1c4eb16996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586446805727,
+        "stop" : 1586446806773,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "3beb286d130692c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586446725265,
+        "stop" : 1586446726085,
+        "duration" : 820
+      }
+    }, {
+      "uid" : "7de2b94bff3c534f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575858794590,
+        "stop" : 1575858799663,
+        "duration" : 5073
+      }
+    }, {
+      "uid" : "895a23b43d300775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574827961797,
+        "stop" : 1574827962923,
+        "duration" : 1126
+      }
+    }, {
+      "uid" : "571183ca1a37f181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574817326380,
+        "stop" : 1574817327106,
+        "duration" : 726
+      }
+    }, {
+      "uid" : "9f41d98e6b360bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574760149236,
+        "stop" : 1574760150385,
+        "duration" : 1149
+      }
+    }, {
+      "uid" : "85f12ee969efb802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574760060156,
+        "stop" : 1574760060777,
+        "duration" : 621
+      }
+    }, {
+      "uid" : "68d824bb8f1fac3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574759127816,
+        "stop" : 1574759128242,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "a1d321d3bc0ce99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574759009498,
+        "stop" : 1574759010016,
+        "duration" : 518
+      }
+    }, {
+      "uid" : "bf7469c8c9ca6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574758446675,
+        "stop" : 1574758447176,
+        "duration" : 501
+      }
+    }, {
+      "uid" : "585afc7d09b74a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574758312965,
+        "stop" : 1574758313428,
+        "duration" : 463
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fc06f5667f175dab.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'http://www.baidu.com', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'other': ''}" ]
+}

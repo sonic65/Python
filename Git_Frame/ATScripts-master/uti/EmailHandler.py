@@ -25,8 +25,8 @@ class EmailHandler(object):
 
         # 第三方 SMTP 服务
         mail_host = "smtp.qq.com"  # 设置服务器
-        mail_user = "56749154@qq.com"  # 用户名
-        mail_pass = "eleme2020"  # 口令
+        mail_user = "1641839697@qq.com"  # 用户名
+        mail_pass = "ygarpyvxlllgcbcc"  # 口令
 
         # 设置收件人和发件人
         sender = '56749154@qq.com'

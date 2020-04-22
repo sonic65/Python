@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "42f9d0f216b322fe",
+      "uid" : "df7e7a190ea07293",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308562,
-        "stop" : 1586499308562,
-        "duration" : 0
+        "start" : 1586500275716,
+        "stop" : 1586500275717,
+        "duration" : 1
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c99c380225a7dc63",
+      "uid" : "9ea953ff0aa2f068",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '你好' in 'hello world'",
       "time" : {
-        "start" : 1586499308490,
-        "stop" : 1586499308492,
-        "duration" : 2
+        "start" : 1586500275646,
+        "stop" : 1586500275647,
+        "duration" : 1
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3d080c14fc588c72",
+      "uid" : "9ffa2e8c9e187fdc",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308560,
-        "stop" : 1586499308560,
-        "duration" : 0
+        "start" : 1586500275713,
+        "stop" : 1586500275714,
+        "duration" : 1
       }
     } ]
   },
@@ -67,11 +67,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18f16344ba5dcde2",
+      "uid" : "a6ed2b056c1a4d8a",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308487,
-        "stop" : 1586499308487,
+        "start" : 1586500275640,
+        "stop" : 1586500275640,
         "duration" : 0
       }
     } ]

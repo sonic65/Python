@@ -1,0 +1,110 @@
+{
+  "uid" : "60682acad82a1a6b",
+  "name" : "test_case[case26]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "71331554cf5f4fffd314f90d4617c3cf",
+  "time" : {
+    "start" : 1586831458592,
+    "stop" : 1586831458592,
+    "duration" : 0
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'case_expect'",
+  "statusTrace" : "self = <uti.RequestHandler.RequestHandler object at 0x111aacc90>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    def __init__(self, case):\n        self.case = case\n        try:\n>           self.case_expect = json.loads(self.case['case_expect'])\nE           KeyError: 'case_expect'\n\nuti/RequestHandler.py:21: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <scripts.test_case.Test_case object at 0x111a9c650>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n>       response = RequestHandler(case).get_response\n\nscripts/test_case.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <uti.RequestHandler.RequestHandler object at 0x111aacc90>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    def __init__(self, case):\n        self.case = case\n        try:\n            self.case_expect = json.loads(self.case['case_expect'])\n        except:\n>           self.case_expect = self.case['case_expect']\nE           KeyError: 'case_expect'\n\nuti/RequestHandler.py:23: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586831457924,
+      "stop" : 1586831457924,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'case_expect'",
+    "statusTrace" : "self = <uti.RequestHandler.RequestHandler object at 0x111aacc90>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    def __init__(self, case):\n        self.case = case\n        try:\n>           self.case_expect = json.loads(self.case['case_expect'])\nE           KeyError: 'case_expect'\n\nuti/RequestHandler.py:21: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <scripts.test_case.Test_case object at 0x111a9c650>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n>       response = RequestHandler(case).get_response\n\nscripts/test_case.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <uti.RequestHandler.RequestHandler object at 0x111aacc90>\ncase = {'expect': '{\"code\": 200, \"message\": \"success\"}', 'id': '', 'isRun': 'RUN', 'method': 'GET', ...}\n\n    def __init__(self, case):\n        self.case = case\n        try:\n            self.case_expect = json.loads(self.case['case_expect'])\n        except:\n>           self.case_expect = self.case['case_expect']\nE           KeyError: 'case_expect'\n\nuti/RequestHandler.py:23: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ae6f66af713329c",
+      "name" : "log",
+      "source" : "5ae6f66af713329c.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586831458602,
+      "stop" : 1586831464224,
+      "duration" : 5622
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "71586-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': '', 'module': '岗位信息', 'url': '/posts/1001A110000000000FOU/posts', 'isRun': 'RUN', 'method': 'GET', 'params': 1.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60682acad82a1a6b.json",
+  "parameterValues" : [ "{'id': '', 'module': '岗位信息', 'url': '/posts/1001A110000000000FOU/posts', 'isRun': 'RUN', 'method': 'GET', 'params': 1.0, 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
+}

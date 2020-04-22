@@ -5,12 +5,12 @@
     "name" : "allure.report_test",
     "children" : [ {
       "name" : "test_case01",
-      "uid" : "18f16344ba5dcde2",
+      "uid" : "a6ed2b056c1a4d8a",
       "parentUid" : "636d82d4962011334bd4b91acb80f8c8",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308487,
-        "stop" : 1586499308487,
+        "start" : 1586500275640,
+        "stop" : 1586500275640,
         "duration" : 0
       },
       "flaky" : false,
@@ -18,39 +18,39 @@
       "parameters" : [ ]
     }, {
       "name" : "test_case02",
-      "uid" : "c99c380225a7dc63",
+      "uid" : "9ea953ff0aa2f068",
       "parentUid" : "636d82d4962011334bd4b91acb80f8c8",
       "status" : "failed",
       "time" : {
-        "start" : 1586499308490,
-        "stop" : 1586499308492,
-        "duration" : 2
+        "start" : 1586500275646,
+        "stop" : 1586500275647,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_case03",
-      "uid" : "3d080c14fc588c72",
+      "uid" : "9ffa2e8c9e187fdc",
       "parentUid" : "636d82d4962011334bd4b91acb80f8c8",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308560,
-        "stop" : 1586499308560,
-        "duration" : 0
+        "start" : 1586500275713,
+        "stop" : 1586500275714,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "test_case04",
-      "uid" : "42f9d0f216b322fe",
+      "name" : "测试标题",
+      "uid" : "df7e7a190ea07293",
       "parentUid" : "636d82d4962011334bd4b91acb80f8c8",
       "status" : "passed",
       "time" : {
-        "start" : 1586499308562,
-        "stop" : 1586499308562,
-        "duration" : 0
+        "start" : 1586500275716,
+        "stop" : 1586500275717,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,

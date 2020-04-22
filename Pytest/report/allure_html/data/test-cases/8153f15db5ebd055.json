@@ -1,0 +1,110 @@
+{
+  "uid" : "8153f15db5ebd055",
+  "name" : "test_case[case1]",
+  "fullName" : "scripts.test_case.Test_case#test_case",
+  "historyId" : "2267bb04dfeab26bec94c39d05e91380",
+  "time" : {
+    "start" : 1586832153608,
+    "stop" : 1586832153621,
+    "duration" : 13
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'case_project'",
+  "statusTrace" : "self = <scripts.test_case.Test_case object at 0x1055195d0>, case = {'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'id': 'asc-0003', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['case_project'])\nE       KeyError: 'case_project'\n\nscripts/test_case.py:29: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1586832153249,
+      "stop" : 1586832153249,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'case_project'",
+    "statusTrace" : "self = <scripts.test_case.Test_case object at 0x1055195d0>, case = {'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'id': 'asc-0003', 'isRun': 'RUN', 'method': 'POST', ...}\n\n    @pytest.mark.parametrize('case', ExcelHandler().get_excel_data)\n    def test_case(self, case):\n        \"\"\"  执行断言 \"\"\"\n        # print(case)\n        # 发请求\n        response = RequestHandler(case).get_response\n    \n        # 制作 allure 报告\n>       allure.dynamic.title(case['case_project'])\nE       KeyError: 'case_project'\n\nscripts/test_case.py:29: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0bd5b3d41d2dfe0",
+      "name" : "log",
+      "source" : "a0bd5b3d41d2dfe0.txt",
+      "type" : "text/plain",
+      "size" : 153
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1586832153879,
+      "stop" : 1586832160764,
+      "duration" : 6885
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "72028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'id': 'asc-0003', 'module': 'flask', 'url': '127.0.0.1:8888/login?name=yuhang&pwd=999', 'isRun': 'RUN', 'method': 'POST', 'params': '{}', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result_code': '', 'result_message': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8153f15db5ebd055.json",
+  "parameterValues" : [ "{'id': 'asc-0003', 'module': 'flask', 'url': '127.0.0.1:8888/login?name=yuhang&pwd=999', 'isRun': 'RUN', 'method': 'POST', 'params': '{}', 'expect': '{\"code\": 200, \"message\": \"登录成功\"}', 'result_code': '', 'result_message': ''}" ]
+}
