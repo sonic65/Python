@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d1d226-a34f-4534-8b79-5acc00fc8a55" name="Default Changelist" comment="" />
+    <list default="true" id="a0d1d226-a34f-4534-8b79-5acc00fc8a55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +47,13 @@
       <option name="presentableId" value="Default" />
       <updated>1586961440247</updated>
       <workItem from="1586961522045" duration="87000" />
+      <workItem from="1587625364577" duration="2000" />
+      <workItem from="1587625375817" duration="48000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586961540412">
