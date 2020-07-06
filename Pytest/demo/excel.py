@@ -10,95 +10,25 @@ import time,sys
 
 class ExcelHandler():
 
-    def get_excel_data(self):
-        try:
-            header = {"User-Agent": "Chrome/51.0.2704.103"}
+    def excel_to_list(data_file):
+        data_list = []  # 新建个空列表，来乘装所有的数据
+        wb = xlrd.open_workbook(data_file)  # 打开excel
+        sh = wb.sheet_by_index(0)  # 获取工作簿
+        header = sh.row_values(0)  # 获取标题行数据
+        for i in range(1, sh.nrows):  # 跳过标题行，从第二行开始取数据
+            d = dict(zip(header, sh.row_values(i)))  # 将标题和每行数据组装成字典
+            data_list.append(d)
+        return data_list  # 列表嵌套字典格式，每个元素是一个字典
 
-            rb = xlrd.open_workbook(conf.TEST_CASE_PATH)
-            wb = copy(rb)
-            sheet = rb.sheet_by_index(0)
-            wbsheet = wb.get_sheet(0)
-            rows = sheet.nrows
-            ols = sheet.ncols
-            '''
-            print(sheet.row(0)) #第一页 第一列
-            print(sheet.col(0)) #第一页 第一行
-            '''
-            for row in range(1, rows):
-                print('----------------------------------当前执行--------第', row, '行----------------------------------')
-                res = None
-                url = sheet.row_values(row, 2, 3)[0]
-                method = sheet.row_values(row, 4, 5)[0]
-                params = sheet.row_values(row, 5, 6)[0]
-                if (method == 'GET'):
-                    if (params == None or params == ''):
-                        res = self.send_request(url,params,header)
-                    else:
-                        res = self.send_request(url+'?'+params,None,header)
-                else:
-                    data_json = None
-                    header['Content-Type']='application/json'
-                    if(params != None and params != '' and len(params) !=0):
-                        data_json = json.dumps(json.loads(params))
-                    res = self.post_invoke(url, data_json, header)
+    def get_test_data(data_list, case_id):
+        for case_data in data_list:
+            if case_id == case_data['case_id']:  # 如果字典数据中case_name与参数一致
+                return case_data
+                # 如果查询不到会返回None
 
-                #返回所有结果
-                # print('执行结果返回:',str(res))
-                #返回code和message
-                code = res['code']
-                msg = res['message']
-                print('测试接口：',url,'\n测试结果：code：',code,",“message：",msg)
-                # print('测试接口：',url,'\n测试结果：',msg)
+    if __name__ == '__main__':  # 测试一下自己的代码
+        data_list = excel_to_list("/Users/sonic/Project/Python/Pytest/data/Test_Case.xls")  # 读取excel，TestUserLogin工作簿的所有数据
+        case_data = get_test_data(data_list, 'asc-0008')  # 查找用例'test_user_login_normal'的数据
+        # print(data_list)
+        print(case_data)
 
-                if(res != None):
-                    code = res['code']
-                    msg = res['message']
-                    wbsheet.write(row, 9, code)
-                    wbsheet.write(row, 10, str(msg))
-                    res=None
-                    data_json=None
-            wb.save(conf.TEST_CASE_PATH)
-
-        except BaseException as e:
-            print("Unexpected error:", sys.exc_info()[0],sys.exc_info()[1])
-            print('发生异常')
-        else:
-            print('未发生异常')
-
-
-    def send_request(self):
-        """ 发请求 """
-        try:
-            response = requests.request(
-                method=self.case['case_method'],
-                url=self.case['case_url'],
-                params=self._check_params()
-            )
-            content_type = response.headers['Content-Type']
-            content_type = content_type.split(";")[0].split('/')[-1] if ';' in content_type else \
-            content_type.split("/")[-1]
-            if hasattr(self, '_check_{}_response'.format(content_type)):
-                response = getattr(self, '_check_{}_response'.format(content_type))(response)
-            else:
-                raise '返回类型为: {}, 无法解析'.format(content_type)
-        except:
-            logger().error({'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])})
-            return {'response': "请求发送失败，详细信息： url={}".format(self.case['case_url'])}, self.case['case_expect']
-
-        return response
-
-    def token_md5(self):
-        t = time.time()
-        timeStamp = (round(t * 1000))
-        signStr = '3825720472286642210' + "-" + '1515795216911630337' + "-" + str(
-            timeStamp) + "-" + 'ee54bcd1-662c-47ae-8117-76946e3d4e1f'
-        m1 = hashlib.md5()
-        # 使用md5对象里的update方法md5转换
-        m1.update(signStr.encode("utf-8"))
-        signVal = m1.hexdigest()
-        print(timeStamp, signVal)
-        return signVal, str(timeStamp)
-
-
-if __name__ == '__main__':
-    ExcelHandler().get_excel_data()

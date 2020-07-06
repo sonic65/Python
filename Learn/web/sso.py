@@ -11,7 +11,7 @@ import time
 def login():
     path = "/usr/local/bin/chromedriver"
     driver = webdriver.Chrome(path)
-    driver.get('https://ssouat.rajax.me/euc/#/')
+    driver.get('https://sso.rajax-inc.com')
     # os.system(2)
     driver.find_element_by_class_name("tachyon-icon").click()
     driver.find_element_by_xpath('//*[@id="app"]/div/section/div/div/section/section/div/label[1]/input').send_keys(
