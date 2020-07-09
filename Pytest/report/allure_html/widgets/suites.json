@@ -4,8 +4,8 @@
     "uid" : "af586ea5ffb1b57fad0f98a55a6d147c",
     "name" : "scripts",
     "statistic" : {
-      "failed" : 25,
-      "broken" : 2,
+      "failed" : 27,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

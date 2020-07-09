@@ -7,7 +7,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "employees",
-        "uid" : "34d4e57e39e059a5",
+        "uid" : "77db2d16083a705",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\":8,\"pageNumber\":10,\"postState\":\"Y\",\"mainJob\":\"Y\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "98e6b268219be77c",
+        "uid" : "655d51ddeeec4279",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -33,7 +33,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/increment?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"beginTime\": \"2015-01-01 00:00:00\",\\n    \"endTime\": \"2019-10-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "f912d28c8f883a18",
+        "uid" : "1e7274978f50ddde",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -46,7 +46,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/E089288', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "24663241baaf8af7",
+        "uid" : "a68388151bfb4188",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -59,7 +59,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/tb/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"postState\": \"Y\",\\n    \"mainJob\": \"Y\",\\n    \"beginTime\": \"2016-10-01 00:00:00\",\\n    \"endTime\": \"2016-10-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "fa40b2f23056a7b3",
+        "uid" : "8191852339f45420",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -72,7 +72,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/sub/byGroupCode?groupCode=206316', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "b58fa603d13cf111",
+        "uid" : "67137b303b01cefb",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -85,7 +85,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 1,\\n    \"pageNumber\": 2\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "44eb0ba110814788",
+        "uid" : "10a44395a60c0d08",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -98,7 +98,7 @@
         "parameters" : [ "{'id': '', 'module': 'employees', 'url': '/employees/E089288/linkman', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "employees",
-        "uid" : "db21cd5ee4062081",
+        "uid" : "15198043c9162bc6",
         "parentUid" : "c5bdd9f4a6732ec75212a21c28a62292",
         "status" : "failed",
         "time" : {
@@ -115,7 +115,7 @@
       "name" : "POST",
       "children" : [ {
         "name" : "employees",
-        "uid" : "9da68e236525b5ee",
+        "uid" : "d6ee66f0624cfcdf",
         "parentUid" : "0b9397b29bd3c7cdedccebfdad8b0c13",
         "status" : "failed",
         "time" : {
@@ -136,7 +136,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "self",
-        "uid" : "5e7ba8d93483427a",
+        "uid" : "7b3255801f3709d3",
         "parentUid" : "367c711959540376b622dd60d9a385f1",
         "status" : "failed",
         "time" : {
@@ -149,7 +149,7 @@
         "parameters" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/E010785/office_records', 'isRun': 'RUN', 'method': 'GET', 'params': '{}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "self",
-        "uid" : "2fe723d8034bb7e4",
+        "uid" : "eebcfb67aaae068d",
         "parentUid" : "367c711959540376b622dd60d9a385f1",
         "status" : "failed",
         "time" : {
@@ -162,7 +162,7 @@
         "parameters" : [ "{'id': '', 'module': 'self', 'url': '/selfhelp/emp/0001A910000000006UYK/itss', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "self",
-        "uid" : "643d4925f7e6f161",
+        "uid" : "311efdf58da80c29",
         "parentUid" : "367c711959540376b622dd60d9a385f1",
         "status" : "failed",
         "time" : {
@@ -183,7 +183,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "depts",
-        "uid" : "48be53568bc564fc",
+        "uid" : "de1b114fdac6d910",
         "parentUid" : "425d580e342264e61a30d7d2ac2d42d3",
         "status" : "failed",
         "time" : {
@@ -204,7 +204,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "nc",
-        "uid" : "b90c4d2562b2238e",
+        "uid" : "51ce900586231e58",
         "parentUid" : "d062e724bbd9ba8f93848053ff472314",
         "status" : "failed",
         "time" : {
@@ -217,7 +217,7 @@
         "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "nc",
-        "uid" : "b48c52c0e3a72513",
+        "uid" : "c54d400ec57825ef",
         "parentUid" : "d062e724bbd9ba8f93848053ff472314",
         "status" : "failed",
         "time" : {
@@ -230,7 +230,7 @@
         "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndocIncremental?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2, \"beginTime\": \"2015-10-01 00:00:00\",\\n    \"endTime\": \"2019-10-11 23:59:59\"}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "nc",
-        "uid" : "bed2aa97df6af04e",
+        "uid" : "4e9dc122d786f710",
         "parentUid" : "d062e724bbd9ba8f93848053ff472314",
         "status" : "failed",
         "time" : {
@@ -243,7 +243,7 @@
         "parameters" : [ "{'id': '', 'module': 'nc', 'url': '/nc/employees/page/getPsndoc', 'isRun': 'RUN', 'method': 'GET', 'params': '{\"pageSize\": 1, \"pageNumber\": 2}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "nc",
-        "uid" : "f85c04a0a7a851f0",
+        "uid" : "9cf522300679e988",
         "parentUid" : "d062e724bbd9ba8f93848053ff472314",
         "status" : "failed",
         "time" : {
@@ -264,7 +264,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "口碑小二",
-        "uid" : "3f0f08fabe7ef9ba",
+        "uid" : "d4abeb3a992b1f83",
         "parentUid" : "082a8a4021d3b0adf3c7689113fd6c6e",
         "status" : "failed",
         "time" : {
@@ -277,7 +277,7 @@
         "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/entry/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"beginTime\": \"2019-10-01 00:00:00\",\\n    \"endTime\": \"2020-01-11 23:59:59\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "口碑小二",
-        "uid" : "b560bde492c01fc3",
+        "uid" : "ba8eff45cccb1763",
         "parentUid" : "082a8a4021d3b0adf3c7689113fd6c6e",
         "status" : "failed",
         "time" : {
@@ -290,7 +290,7 @@
         "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/dismission/page', 'isRun': 'RUN', 'method': 'GET', 'params': '{\\n    \"pageSize\": 8,\\n    \"pageNumber\": 10,\\n    \"beginTime\": \"2019-10-01 00:00:00\",\\n    \"endTime\": \"2020-01-11 23:59:60\"\\n}', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "口碑小二",
-        "uid" : "67ad0e1efec083ec",
+        "uid" : "47cf2620a49fbb0c",
         "parentUid" : "082a8a4021d3b0adf3c7689113fd6c6e",
         "status" : "failed",
         "time" : {
@@ -303,7 +303,7 @@
         "parameters" : [ "{'id': '', 'module': '口碑小二', 'url': '/koubei/employees/entry/list?entryList=202310%2CE081385%2C453434%2C206316', 'isRun': 'RUN', 'method': 'GET', 'params': '', 'expect': '{\"code\": 200, \"message\": \"success\"}', 'result_code': '', 'result_message': ''}" ]
       }, {
         "name" : "口碑小二",
-        "uid" : "877cbef7e895dfc6",
+        "uid" : "488f2039a0c9ed2d",
         "parentUid" : "082a8a4021d3b0adf3c7689113fd6c6e",
         "status" : "failed",
         "time" : {
@@ -324,7 +324,7 @@
       "name" : "GET",
       "children" : [ {
         "name" : "岗位信息",
-        "uid" : "de315ef8114fa229",
+        "uid" : "36d0d88e3ef7e0df",
         "parentUid" : "005daa37266e651c66c9246212a47190",
         "status" : "failed",
         "time" : {
@@ -345,7 +345,7 @@
       "name" : "POST",
       "children" : [ {
         "name" : "flask",
-        "uid" : "d1e6d67c7e90ee6f",
+        "uid" : "dabca5208b5f6647",
         "parentUid" : "7e2ef1df2ae7e6f3a7e614b4f2b63c37",
         "status" : "failed",
         "time" : {
@@ -358,24 +358,24 @@
         "parameters" : [ "{'case_id': 'asc-0006', 'case_module': 'flask', 'case_url': 'baidu.com', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '', 'case_expect': 200.0, 'case_result_code': '', 'case_result_message': ''}" ]
       }, {
         "name" : "flask",
-        "uid" : "faaaae97ab3b276a",
+        "uid" : "a8a2b4407d964f93",
         "parentUid" : "7e2ef1df2ae7e6f3a7e614b4f2b63c37",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1587038869885,
-          "stop" : 1587038870009,
-          "duration" : 124
+          "start" : 1587351470912,
+          "stop" : 1587351471076,
+          "duration" : 164
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'case_id': 'asc-0006', 'case_module': 'flask', 'case_url': 'http://janusapi.info.eleme.test/api/v1/imageCodes', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '{\"width\":10,\"height\":10}', 'case_expect': '{\"code\": 0}', 'case_result_code': '', 'case_result_message': '', 'code': 0.0, 'message': 'SUCCESS'}" ]
+        "parameters" : [ "{'case_id': 'asc-0006', 'case_module': 'flask', 'case_url': 'http://janusapi.info.eleme.test/api/v1/imageCodes', 'isRun': 'RUN', 'case_method': 'POST', 'case_params': '{\"width\":10,\"height\":10}', 'case_expect': '{\"code\":0}', 'case_result_code': '', 'case_result_message': '', 'result_key': 'code', 'message': 'SUCCESS'}" ]
       } ],
       "uid" : "7e2ef1df2ae7e6f3a7e614b4f2b63c37"
     }, {
       "name" : "post",
       "children" : [ {
         "name" : "flask",
-        "uid" : "cd887095764acb10",
+        "uid" : "849d5b09ecb66325",
         "parentUid" : "21eea37b695988231cd019e1f0bf0dce",
         "status" : "failed",
         "time" : {
@@ -392,30 +392,30 @@
       "name" : "GET",
       "children" : [ {
         "name" : "flask",
-        "uid" : "4037a49f7b794a87",
+        "uid" : "c0f2dd16e934ffc3",
         "parentUid" : "15467e4455c330f00236f63aab121ac0",
         "status" : "failed",
         "time" : {
-          "start" : 1587038852415,
-          "stop" : 1587038852470,
-          "duration" : 55
+          "start" : 1587351471189,
+          "stop" : 1587351471207,
+          "duration" : 18
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'case_id': 'asc-0008', 'case_module': 'flask', 'case_url': 'https://provider.info.eleme.test/employees/page', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '{\\n    \"pageSize\": 1,\\n    \"pageNumber\": 2\\n}', 'case_expect': '{\"code\": 0}', 'case_result_code': '', 'case_result_message': '', 'code': 200.0, 'message': ''}" ]
+        "parameters" : [ "{'case_id': 'asc-0007', 'case_module': 'flask', 'case_url': 'http://127.0.0.1:8888/login?name=yuhang&pwd=111', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '', 'case_expect': '{\"code\": 200}', 'case_result_code': '', 'case_result_message': '', 'result_key': 'code', 'message': '登录成功'}" ]
       }, {
         "name" : "flask",
-        "uid" : "a20db0bfc5350d6a",
+        "uid" : "4b717769e3ff28f5",
         "parentUid" : "15467e4455c330f00236f63aab121ac0",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1587038870110,
-          "stop" : 1587038870122,
-          "duration" : 12
+          "start" : 1587351471219,
+          "stop" : 1587351471302,
+          "duration" : 83
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'case_id': 'asc-0007', 'case_module': 'flask', 'case_url': 'http://127.0.0.1:8888/login?name=yuhang&pwd=111', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '', 'case_expect': '{\"code\": 200}', 'case_result_code': '', 'case_result_message': '', 'code': 200.0, 'message': '登录成功'}" ]
+        "parameters" : [ "{'case_id': 'asc-0008', 'case_module': 'flask', 'case_url': 'https://provider.info.eleme.test/employees/page', 'isRun': 'RUN', 'case_method': 'GET', 'case_params': '{\\n    \"pageSize\": 1,\\n    \"pageNumber\": 2\\n}', 'case_expect': '{\"code\": 0}', 'case_result_code': '', 'case_result_message': '', 'result_key': 'code', 'message': ''}" ]
       } ],
       "uid" : "15467e4455c330f00236f63aab121ac0"
     } ],

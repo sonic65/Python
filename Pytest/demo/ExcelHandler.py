@@ -42,5 +42,8 @@ class ExcelHandler(object):
         wbsheet.write(row, col, meassage)
         wb.save(conf.TEST_CASE_PATH)
 
+    def get_test_data(self, data_list, case_name):
+        pass
+
 if __name__ == '__main__':
     ExcelHandler().get_excel_data

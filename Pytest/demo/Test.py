@@ -8,7 +8,7 @@ import xlrd
 # row 是行
 # col 是列
 
-file_path = r'../Test_Case.xlsx'
+file_path = r'../data/Test_Case.xls'
 
 # 拿到book对象 xlrd.open_workbook方法
 book = xlrd.open_workbook(file_path)

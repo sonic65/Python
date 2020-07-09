@@ -8,8 +8,9 @@
 '''
 
 import xlrd
+import sys
+sys.path.append("..")
 from settings import conf
-
 
 class ExcelHandler(object):
 
@@ -28,10 +29,10 @@ class ExcelHandler(object):
         l = []
         # print(sheet.row_values(0))
         title = sheet.row_values(0)
-        # print(title)
         # 获取其他行
         for i in range(1, rows):
             # print(sheet.row_values(i))
+        #将【title：列值】组装成字典
             l.append(dict(zip(title, sheet.row_values(i))))
         return l
 
