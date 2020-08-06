@@ -1,15 +1,21 @@
-from urllib.request import Request
-from urllib.request import urlopen
+import requests
+import re
 
-url = "http://wwww.baidu.com"
+url = "http://wwww.bilibili.com"
 
-headers = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"}
+headers = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36",
+            
+}
 
 
-request = Request(url,headers=headers)
+response = requests.get(url,headers=headers)
 
-response = urlopen(url)
+# info = response.read()
+info = response.text
 
-info = response.read()
+infoa = re.findall(r'<div class="content"><span>+</span>',info)
 
-print(info.decode)
+print(infoa)
+
+with open('baiducontent.txt','w',encoding='utf-8') as f:
+    f.write(str(infoa))

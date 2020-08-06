@@ -1,8 +1,11 @@
-def fact(x):
-    if x == 0 :
-        return 1
-    return x * fact(x - 1)
+import re
 
-x = int(input('Input a number: '))
+string1 = input('Input a tuple: ')
+l = string1.split(",")
+print(l)
 
-print(fact(x))
+t = re.findall(r'[0-9]+',string1)
+k = tuple(t)
+print(k)
+
+print(t)
