@@ -5,24 +5,18 @@
 x1 = "I hava a student"
 x2 = "aeiou"
 
-x1a = '.'.join(x1)
-print(x1.split())
-print(x1a)
+# x1a = '.'.join(x1)
 
-x2a = '.'.join(x2)
+# x2a = '.'.join(x2)
 
-print(x2a)
+x1l = list(x1)
+x2l = list(x2)
 
-y  = x1a.replace(x2a,'',0)
+print(list(x1))
+print(list(x2))
+
+y  = x1.replace(x2,'',0)
 
 print(y)
 
 
-#倒序数字
-# x = input('input a number: ')
-# y = list(x)
-# print(y)
-
-# z = y.reverse()
-
-# print(z)
