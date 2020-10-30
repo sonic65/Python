@@ -37,7 +37,7 @@ class TestDemo():
                     'Time_Stamp':sigRes[1],
                     'Content-Type':'application/json'
                 }
-                res = commonMethod().http_special_query(url,test_data['params'],test_data['method'],headers) ###发起请求
+                res = commonMethod().http_special_query(url,test_data['params.py'],test_data['method'],headers) ###发起请求
 
                 with allure.step('返回消息'+str(res)): ###在allure报告中展示返回消息
                     allure.attach('返回消息', str(res), allure.attachment_type.TEXT) ###在allure报告中展示添加为TEXT附件，支持多种附件，需要更改比如png allure.attachment_type.PNG

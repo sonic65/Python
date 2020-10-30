@@ -109,8 +109,8 @@ if __name__ == '__main__':
                     'Sig':sigRes[0],
                     'Time_Stamp':sigRes[1]
         }
-        # print(url,test_data['params'],test_data['method'],headers)
-        res = commonMethod().http_special_query(url, test_data['params'], test_data['method']
+        # print(url,test_data['params.py'],test_data['method'],headers)
+        res = commonMethod().http_special_query(url, test_data['params.py'], test_data['method']
                                                 ,headers)  ###发起请求
         print(type(res),res)
         res_to_json = json.loads(res)  ####返回的json结果转dict
