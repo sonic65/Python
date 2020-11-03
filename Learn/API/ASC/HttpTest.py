@@ -117,9 +117,9 @@ if __name__ == '__main__':
 
 
     # parser = argparse.ArgumentParser(description='manual to this script')
-    # parser.add_argument('--params', type=str, default=None)
+    # parser.add_argument('--params.py', type=str, default=None)
     # args = parser.parse_args()
-    # print("测试参数传递",args.params)
+    # print("测试参数传递",args.params.py)
     httpDemo = HttpTest()
     httpDemo.auto_test_excel()
     # header = {

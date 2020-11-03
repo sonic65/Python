@@ -21,7 +21,7 @@ print(url,login_xls)
 class testUserLogin(unittest.TestCase):
     def setParameters(self, case_name, path, query, method):
         """
-        set params
+        set params.py
         :param case_name:
         :param path
         :param query

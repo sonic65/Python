@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d1d226-a34f-4534-8b79-5acc00fc8a55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learn/Robot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Learn/Robot/params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git_Frame/Test_Fram/common/common_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/Test_Fram/common/common_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git_Frame/Test_Fram/test_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/Test_Fram/test_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git_Frame/interfaceTest/testCase/test01case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/interfaceTest/testCase/test01case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn/API/ASC/HttpTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn/API/ASC/HttpTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFrame_API/testCase/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyFrame_API/testCase/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pytest/uti/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pytest/uti/RequestHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIautomation/uiautomation/uiautomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/UIautomation/uiautomation/uiautomation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,7 +61,7 @@
       <recent name="$PROJECT_DIR$/Git_Frame/ASC/testdata" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
     <configuration name="format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,8 +84,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn/web/bilibili" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learn/web/bilibili/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_baidu.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learn/web/bilibili" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Learn/web/bilibili/test_baidu.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests in test_baidu.py" />
         <item itemvalue="Python.format" />
       </list>
     </recent_temporary>
@@ -107,28 +152,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594030648058">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="445" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603447149562">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="413" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.834@0.23.1440.834" timestamp="1594030648058" />
-    <state x="252" y="54" key="#format" timestamp="1587628673911">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state x="445" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.811@0.23.1440.811" timestamp="1603447149562" />
+    <state width="1419" height="117" key="GridCell.Tab.0.bottom" timestamp="1603629681640">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="252" y="54" key="#format/0.23.1440.836@0.23.1440.836" timestamp="1587628673911" />
-    <state x="197" y="79" key="SettingsEditor" timestamp="1593506366260">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1419" height="117" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603629681640" />
+    <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1603249978553" />
+    <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603251766873" />
+    <state width="1419" height="117" key="GridCell.Tab.0.center" timestamp="1603629681639">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="197" y="79" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1593506366260" />
+    <state width="1419" height="117" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1603629681639" />
+    <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
+    <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
+    <state width="1419" height="117" key="GridCell.Tab.0.left" timestamp="1603629681639">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="117" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1603629681639" />
+    <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
+    <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
+    <state width="1419" height="117" key="GridCell.Tab.0.right" timestamp="1603629681640">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1419" height="117" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1603629681640" />
+    <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
+    <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
+    <state x="221" y="67" key="SettingsEditor" timestamp="1603447161381">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="221" y="67" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1603447161381" />
     <state x="0" y="23" key="com.intellij.ide.util.TipDialog" timestamp="1594894082191">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586961540412" />
     <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1594894082191" />
-    <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.836@0.23.1440.836" timestamp="1587897041589" />
-    <state x="222" y="183" width="670" height="58" key="search.everywhere.popup" timestamp="1587629912819">
-      <screen x="0" y="23" width="1440" height="836" />
-    </state>
-    <state x="222" y="183" width="670" height="58" key="search.everywhere.popup/0.23.1440.836@0.23.1440.836" timestamp="1587629912819" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

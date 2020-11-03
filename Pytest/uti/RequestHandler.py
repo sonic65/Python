@@ -40,7 +40,7 @@ class RequestHandler(object):
                 url=self.case['case_url'],
                 data=self.case['case_params'],
                 headers=headers
-            # params=self._check_params()
+            # params.py=self._check_params()
             )
 
             print('接口响应：',response.text)
