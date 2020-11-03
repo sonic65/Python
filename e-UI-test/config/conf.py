@@ -32,15 +32,15 @@ LOCATE_MODE = {
 
 # 邮件信息
 EMAIL_INFO = {
-    'username': 'sonicxp2000@hotmail.com',  # 切换成你自己的地址
-    'password': '249917288b',
+    'username': '@hotmail.com',  # 切换成你自己的地址
+    'password': '',
     'smtp_host': 'smtp.qq.com',
     'smtp_port': 465
 }
 
 # 收件人
 ADDRESSEE = [
-    'gaoyuhang2@tal.com',
+    '.com',
 ]
 
 if __name__ == '__main__':
