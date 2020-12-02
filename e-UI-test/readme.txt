@@ -10,3 +10,9 @@ pytest --alluredir report/result
 生成allure报告： //allure generate directory-with-results/ -o directory-with-report
 
 allure generate report/result -o report/allure_html --clean
+
+
+# 第三方 SMTP 服务
+mail_host = "smtp.qq.com"  # 设置服务器
+mail_user = "1641839697@qq.com"  # 用户名
+# mail_pass = "ygarpyvxlllgcbcc"  # 口令

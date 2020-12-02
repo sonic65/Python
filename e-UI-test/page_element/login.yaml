@@ -1,4 +1,4 @@
-搜索框: "id==kw"
-候选: "css==.bdsug-overflow"
-搜索候选: "css==#form div li"
-搜索按钮: "id==su"
+username: "id==login-username"
+password: "id==login-passwd"
+login_button: "css==a.btn.btn-login"
+# reg_button: "xpath==//*[@id="geetest-wrap"]/div/div[5]/a[1]"

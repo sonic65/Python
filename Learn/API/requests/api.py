@@ -7,4 +7,4 @@ def get(self,url,data):
     res = result.dumps()
     return res
 
-get(self,url,data)
+get(self, url, data)

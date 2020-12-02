@@ -19,7 +19,7 @@ def play(txtPath):
 		txt_count += 1
 
 if __name__ == '__main__':
-	txt_dir_path = '/Users/sonic/Project/Python/Python-BadApple-master/txt/'
-	img_dir_path = '/Users/sonic/Project/Python/Python-BadApple-master/images/'
+	txt_dir_path = '/Users/gaoyuhang/Project/Python/Python-BadApple-master/txt/'
+	img_dir_path = '/Users/gaoyuhang/Project/Python/Python-BadApple-master/images/'
 #	getTxt(img_dir_path, txt_dir_path)
 	play(txt_dir_path)

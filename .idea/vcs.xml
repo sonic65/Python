@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Git_Frame/web-demotest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Learn/UIautomation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UIautomation" vcs="Git" />
   </component>

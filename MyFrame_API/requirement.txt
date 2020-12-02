@@ -1,0 +1,13 @@
+pytest
+allure-pytest
+PyYAML
+zmail
+xlrd
+xlutils
+hashlib
+urllib
+requests
+string
+
+
+#pip install -r requirements.txt

@@ -64,3 +64,6 @@ target/
 .idea/
 allure-report/
 allure-results/
+
+#忽略配置文件
+config/conf.py

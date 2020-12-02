@@ -24,7 +24,7 @@ class WebPage(object):
 
     def get_url(self, url):
         """打开网址并验证"""
-        self.driver.maximize_window()
+        # self.driver.maximize_window()
         self.driver.set_page_load_timeout(60)
         try:
             self.driver.get(url)

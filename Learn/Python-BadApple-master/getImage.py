@@ -6,11 +6,11 @@ def getImage(videoPath, imagePath):
 	while crop_time <= 219.0:
 		os.system('ffmpeg -i %s -f image2 -ss %s -vframes 1 %s.png' % (videoPath, str(crop_time), imagePath + str(img_count)))
 		img_count += 1
-		print 'Geting Image ' + str(img_count) + '.png' + ' from time ' + str(crop_time)
+		print ('Geting Image ' + str(img_count) + '.png' + ' from time ' + str(crop_time))
 		crop_time += 0.1
-	print 'Image Collected'
+	print('Image Collected')
 
 if __name__ == '__main__':
-	videoPath = '/Users/mac/Desktop/badapple.avi'
-	imagePath = '/Users/sonic/Project/Python-BadApple-master/images/'
+	videoPath = '/Users/gaoyuhang/Project/Python/Python-BadApple-master/badapple.avi'
+	imagePath = '/Users/gaoyuhang/Project/Python/Python-BadApple-master/images/'
 	getImage(videoPath, imagePath)

@@ -13,8 +13,44 @@ def timer(func):
     return wrapper
 
 import time
-@timer
+@timer  #相当于 time = timer(want_sleep(10)
 def want_sleep(sleep_time):
     time.sleep(sleep_time)
 
-want_sleep(10)
+want_sleep(10) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def deco(func):
+    t1 = time.time
+    func()
+    t2 = time.time
+    t = t2 - t1
+    print(t)
+
+    return func
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,45 +1,25 @@
 [ {
-  "uid" : "fc06f5667f175dab",
+  "uid" : "7b17bdc85af68ccb",
   "name" : "cnodejs项目",
   "time" : {
-    "start" : 1586844428432,
-    "stop" : 1586844428544,
-    "duration" : 112
+    "start" : 1586844428642,
+    "stop" : 1586844429783,
+    "duration" : 1141
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "7e1ec617a2a266df",
-  "name" : "v2EX项目",
-  "time" : {
-    "start" : 1586844433906,
-    "stop" : 1586844435056,
-    "duration" : 1150
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "88ee61529c0e4f96",
+  "uid" : "d56ad4ba380d9d29",
   "name" : "cnblogs",
   "time" : {
-    "start" : 1586842935017,
-    "stop" : 1586842935338,
-    "duration" : 321
+    "start" : 1586844435064,
+    "stop" : 1586844435865,
+    "duration" : 801
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "7e4e011d9e9cff75",
-  "name" : "cnodejs项目",
-  "time" : {
-    "start" : 1586844432040,
-    "stop" : 1586844433876,
-    "duration" : 1836
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc1436cc05f49c08",
+  "uid" : "7c2052e348092d98",
   "name" : "cnodejs项目",
   "time" : {
     "start" : 1586844429793,
@@ -49,7 +29,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6032b76636f2073b",
+  "uid" : "375725f345565df8",
   "name" : "cnodejs项目",
   "time" : {
     "start" : 1586844431397,
@@ -59,7 +39,7 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "6f02429ca9624ce2",
+  "uid" : "5130bd4675816ecc",
   "name" : "cnodejs项目",
   "time" : {
     "start" : 1586844431409,
@@ -69,13 +49,33 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fc213d61d43cb2f9",
+  "uid" : "49a19a0a8decea41",
   "name" : "cnodejs项目",
   "time" : {
-    "start" : 1586844428642,
-    "stop" : 1586844429783,
-    "duration" : 1141
+    "start" : 1586844428432,
+    "stop" : 1586844428544,
+    "duration" : 112
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f416a2a9ebf3a1d",
+  "name" : "cnodejs项目",
+  "time" : {
+    "start" : 1586844432040,
+    "stop" : 1586844433876,
+    "duration" : 1836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da02ac70d123a07",
+  "name" : "v2EX项目",
+  "time" : {
+    "start" : 1586844433906,
+    "stop" : 1586844435056,
+    "duration" : 1150
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

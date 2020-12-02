@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d1d226-a34f-4534-8b79-5acc00fc8a55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Learn/Robot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Learn/Robot/params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git_Frame/Test_Fram/common/common_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/Test_Fram/common/common_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git_Frame/Test_Fram/test_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/Test_Fram/test_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git_Frame/interfaceTest/testCase/test01case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Git_Frame/interfaceTest/testCase/test01case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learn/API/ASC/HttpTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learn/API/ASC/HttpTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFrame_API/testCase/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyFrame_API/testCase/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pytest/uti/RequestHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pytest/uti/RequestHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UIautomation/uiautomation/uiautomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/UIautomation/uiautomation/uiautomation.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0d1d226-a34f-4534-8b79-5acc00fc8a55" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,42 +139,51 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603447149562">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="445" y="240" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604890832030">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="445" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.811@0.23.1440.811" timestamp="1603447149562" />
-    <state width="1419" height="117" key="GridCell.Tab.0.bottom" timestamp="1603629681640">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="445" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.823@0.23.1440.823" timestamp="1604890832030" />
+    <state width="1419" height="116" key="GridCell.Tab.0.bottom" timestamp="1606543099980">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1419" height="117" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603629681640" />
     <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1603249978553" />
     <state width="1419" height="212" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1603251766873" />
-    <state width="1419" height="117" key="GridCell.Tab.0.center" timestamp="1603629681639">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1419" height="116" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1606543099980" />
+    <state width="1419" height="116" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1606542988400" />
+    <state width="1419" height="116" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1606542875768" />
+    <state width="1419" height="116" key="GridCell.Tab.0.center" timestamp="1606543099979">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1419" height="117" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1603629681639" />
     <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
     <state width="1419" height="212" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
-    <state width="1419" height="117" key="GridCell.Tab.0.left" timestamp="1603629681639">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1419" height="116" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1606543099979" />
+    <state width="1419" height="116" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1606542988399" />
+    <state width="1419" height="116" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1606542875766" />
+    <state width="1419" height="116" key="GridCell.Tab.0.left" timestamp="1606543099979">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1419" height="117" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1603629681639" />
     <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
     <state width="1419" height="212" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
-    <state width="1419" height="117" key="GridCell.Tab.0.right" timestamp="1603629681640">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1419" height="116" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1606543099979" />
+    <state width="1419" height="116" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1606542988399" />
+    <state width="1419" height="116" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1606542875766" />
+    <state width="1419" height="116" key="GridCell.Tab.0.right" timestamp="1606543099980">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1419" height="117" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1603629681640" />
     <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1603249978552" />
     <state width="1419" height="212" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1603251766872" />
+    <state width="1419" height="116" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1606543099980" />
+    <state width="1419" height="116" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1606542988400" />
+    <state width="1419" height="116" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1606542875767" />
     <state x="221" y="67" key="SettingsEditor" timestamp="1603447161381">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="221" y="67" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1603447161381" />
-    <state x="0" y="23" key="com.intellij.ide.util.TipDialog" timestamp="1594894082191">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="0" y="23" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1594894082191" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,6 +192,10 @@
           <url>file://$PROJECT_DIR$/Git_Frame/Test_Fram/test_A.py</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Learn/Python-BadApple-master/play.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

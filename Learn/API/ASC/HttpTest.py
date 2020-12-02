@@ -21,8 +21,8 @@ class HttpTest():
     def auto_test_excel(self):
         try:
             # 
-            url0 = 'http://localhost:8886/'
-            path = '/Users/sonic/Project/Python/Pytest/data/Test_Case.xls'
+            url0 = ''
+            path = '/Users/gaoyuhang/Project/Python/e-api-test/testdata/reg.xls'
             print(self.sign_md5())
             sigRes = self.sign_md5()
             header = {"User-Agent": "Chrome/51.0.2704.103"}
@@ -38,16 +38,17 @@ class HttpTest():
             for row in range(1, nrows):
                 print('----------------------------------当前执行--------第',row,'行----------------------------------')
                 res = None
-                url = sheet1.row_values(row, 2, 4)[0]
-                method = sheet1.row_values(row, 4, 5)[0]
-                params = sheet1.row_values(row, 5, 6)[0]
+                url = sheet1.row_values(row, 2)[0]
+                method = sheet1.row_values(row, 3)[0]
+                params = sheet1.row_values(row, 4)[0]
                 if (method == 'GET'):
                     if (params == None or params == ''):
                         # 前面已经通过 copy 方法获取了writeOpenXlsx
                         # 通过get_sheet()获取的sheet有write()方法
                         res = self.get_invoke(url,params,header)
                     else:
-                        res = self.get_invoke(url+'?'+params,None,header)
+                        res = self.get_invoke(url+params,None,header)
+                        # res = self.get_invoke(url+'?'+params,None,header)
                 else:
                     data_json = None
                     header['Content-Type']='application/json'
@@ -58,16 +59,16 @@ class HttpTest():
                 #返回所有结果    
                 # print('执行结果返回:',str(res))  
                 #返回code和message   
-                code = res['code']
-                msg = res['message']
+                # code = res['code']
+                # msg = res['message']
                 # print('测试接口：',url,'\n测试结果：code：',code,",“message：",msg)       
-                print('测试接口：',url,'\n测试结果：',res)                     
+                print('测试接口：',url,'\n测试结果：',res['code'])                     
 
                 if(res != None):
                     code = res['code']
-                    msg = res['message']
-                    wbsheet1.write(row, 9, code)
-                    wbsheet1.write(row, 10, str(msg))
+                    # msg = res['message']
+                    # wbsheet1.write(row, 9, code)
+                    # wbsheet1.write(row, 10, str(msg))
                     res=None
                     data_json=None
             wb.save(path)

@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f02429ca9624ce2",
+      "uid" : "5130bd4675816ecc",
       "status" : "passed",
       "time" : {
         "start" : 1586844431409,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6032b76636f2073b",
+      "uid" : "375725f345565df8",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert {'response': ...t/de_collect'} == '{\"success\":false}'\n  +{'response': '请求发送失败，详细信息： url=cnodejs.org/api/v1//topic_collect/de_collect'}\n  -'{\"success\":false}'",
       "time" : {
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e1ec617a2a266df",
+      "uid" : "9da02ac70d123a07",
       "status" : "passed",
       "time" : {
         "start" : 1586844433906,
@@ -67,13 +67,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "88ee61529c0e4f96",
+      "uid" : "d56ad4ba380d9d29",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 'JavaScript -... - 听雨危楼 - 博客园' == 'JavaScript -...- 听雨危楼 - 博客园2'\n  - JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2\n  ?                                 -\n  + JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园",
       "time" : {
-        "start" : 1586842935017,
-        "stop" : 1586842935338,
-        "duration" : 321
+        "start" : 1586844435064,
+        "stop" : 1586844435865,
+        "duration" : 801
       }
     } ]
   },
@@ -87,7 +87,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc06f5667f175dab",
+      "uid" : "49a19a0a8decea41",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 'ç\\x99¾åº¦ä¸\\...x9f¥é\\x81\\x93' == {'code': 200,...sage': '登录成功'}\n  +'ç\\x99¾åº¦ä¸\\x80ä¸\\x8bï¼\\x8cä½\\xa0å°±ç\\x9f¥é\\x81\\x93'\n  -{'code': 200, 'message': '登录成功'}",
       "time" : {
@@ -107,7 +107,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e4e011d9e9cff75",
+      "uid" : "8f416a2a9ebf3a1d",
       "status" : "passed",
       "time" : {
         "start" : 1586844432040,
@@ -126,7 +126,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dc1436cc05f49c08",
+      "uid" : "7c2052e348092d98",
       "status" : "passed",
       "time" : {
         "start" : 1586844429793,
@@ -145,7 +145,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc213d61d43cb2f9",
+      "uid" : "7b17bdc85af68ccb",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert {'response': ...lect/collect'} == '{\"code\": 1}'\n  +{'response': '请求发送失败，详细信息： url=https://cnodejs.org/api/v1/topic_collect/collect'}\n  -'{\"code\": 1}'",
       "time" : {
