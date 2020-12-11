@@ -1,0 +1,12 @@
+# url 
+url: http://baidu.com
+
+# server host
+server:
+    host: http://www.baidu.com
+
+# 数组：即表示server为[a, b, c]
+server:
+    - 192.168.0.1
+    - 192.168.0.1
+    - 192.168.0.1

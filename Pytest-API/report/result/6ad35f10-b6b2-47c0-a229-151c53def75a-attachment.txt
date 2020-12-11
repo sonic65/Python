@@ -1,0 +1,1 @@
+[1m[31mERROR   [0m 接口测试:RequestHandler.py:48 {'response': '请求发送失败，详细信息： url=http:///employees/increment?beginTime=2019-10-01 00:00:00&endTime=2019-10-11 23:59:59'}
