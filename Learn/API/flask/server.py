@@ -25,6 +25,6 @@ def login():
     else:
         resu = {'code': 10001, 'message': '参数不能为空！'}
         return json.dumps(resu, ensure_ascii=False)
- 
+
 if __name__ == '__main__':
     server.run(debug=True, port=8888, host='127.0.0.1')
