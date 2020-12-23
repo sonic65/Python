@@ -1,10 +1,9 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 
-from ibot_token import ibot
-
 from flask import *
 app= Flask(__name__)
+from ibot_token import ibot
 
 
 @app.route('/')
