@@ -14,7 +14,6 @@ from tools.times import datetime_strftime, timestamp
 
 driver = None
 
-
 @pytest.fixture(scope='session', autouse=True)
 def drivers(request):
     global driver

@@ -7,7 +7,7 @@ SECRECT_KEY = '2KEtyNrmIstLt48hzMvnAXaNMQKg88a6'
 def identify_words(index=0):
     from aip import AipOcr
     client = AipOcr(APP_ID, API_KEY, SECRECT_KEY)
-    with open(r'code.png', 'rb') as f:
+    with open(r'page.png', 'rb') as f:
         img = f.read()
     message = client.basicGeneral(img)
     res = message['words_result']

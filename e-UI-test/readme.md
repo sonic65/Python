@@ -55,6 +55,11 @@ https://blog.csdn.net/oHuaXin1234/article/details/107115030?utm_medium=distribut
 - 生成allure报告： //allure generate directory-with-results/ -o directory-with-report
     - allure generate report/result -o report/allure_html --clean
 
+- 打开allure报告：
+    - allure open ./report/allure/
+
+- 报告服务：
+    - allure serve ./report/allure/
 
 # 第三方 SMTP 服务
 mail_host = "smtp.qq.com"  # 设置服务器
