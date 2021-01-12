@@ -85,6 +85,11 @@ class WebPage(object):
         self.driver.refresh()
         self.driver.implicitly_wait(30)
 
+    def capture_element(self, locator):
+        """元素截图"""
+        self.find_element(locator).screenshot(r'./screen_capture/capture_code.png')
+        log.info("Capture element to /page_object/")
+
 
 if __name__ == "__main__":
     pass

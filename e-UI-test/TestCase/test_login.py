@@ -21,10 +21,13 @@ class TestLogin:
         login = LoginPage(drivers)
         login.input_username("淡い柠檬草")
         login.input_password("56749154b")
+        login.input_verify_code()
         login.click_login_button()
         result = re.search((r'哔哩哔哩', login.get_source))
         log.info()
         assert result
+
+        
 
 if __name__ == '__main__':
     pytest.main(['TestCase/test_login.py'])

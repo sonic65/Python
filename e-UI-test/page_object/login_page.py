@@ -24,6 +24,12 @@ class LoginPage(WebPage):
     def click_login_button(self):
         self.is_click(login['login_button'])
         sleep()
+        
+    def input_verify_code(self):
+        """input verify code"""
+        self.capture_element(login['验证码'])
+        txt = self.capture_OCR()
+        self.input_text(login['验证码输入'], txt)
 
 
 if __name__ == '__main__':
