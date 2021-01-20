@@ -14,7 +14,6 @@ SECRECT_KEY = '2KEtyNrmIstLt48hzMvnAXaNMQKg88a6'
 
 driver = webdriver.Chrome()
 
-
 # 利用aip进行识别
 def identify_words(index=0):
     from aip import AipOcr
@@ -26,7 +25,7 @@ def identify_words(index=0):
     res = message['words_result']
     print(res)
     print('识别结果为: %s' % res[0]['words'])
-    
+
     res1 = res[index]['words']
 
     """去除多余空格"""
@@ -35,7 +34,6 @@ def identify_words(index=0):
     print(res2)
 
     return res2
-
     # if len(res) == 0:
     #     return '1'
     # else:

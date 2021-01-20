@@ -1,0 +1,5 @@
+username: "id==login-username"
+password: "id==login-passwd"
+login_button: "css==a.btn.btn-login"
+验证码: "css=="
+# reg_button: "xpath==//*[@id="geetest-wrap"]/div/div[5]/a[1]"

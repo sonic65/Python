@@ -7,8 +7,8 @@ class QuickstartUser(HttpUser):
     @task
     # 只有被 @task 定义的方法才会被调用
     def index_page(self):
-        self.client.get("/hello")  # 这里的地址需要排除 host 部分
-        self.client.get("/world")
+        self.client.get("/")  # 这里的地址需要排除 host 部分
+        # self.client.get("/ibot")
 
     @task(3)
     # 3为权重，表示有3倍机会执行该任务

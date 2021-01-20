@@ -12,7 +12,6 @@ selenium基类
 本文件存放了selenium基类的封装方法
 """
 
-
 class WebPage(object):
     """selenium基类"""
 
@@ -90,6 +89,44 @@ class WebPage(object):
         self.find_element(locator).screenshot(r'./screen_capture/capture_code.png')
         log.info("Capture element to /page_object/")
 
+    def switch_to_alert(self):
+        self.driver.switch_to_default_content() 
+
+    # def wait_for_element(self, content):
+    #     WebDriverWait(self.driver,10,1).until(EC.visibility_of_element_located((By.ID,content)))
+
+    def send_keys_Space(self):
+        """按键"""
+        log.info("按键")
+        self.driver.send_keys(Keys.SPACE)
+
+    def forward(self):
+        """浏览器前进操作"""
+        self.driver.forward()
+        log.info("Click forward on current page.")
+
+    def back(self):
+        """浏览器后退操作"""
+        self.driver.back()
+        log.info("Click back on current page.")
+
+    def wait(self, seconds):
+        """浏览器等待"""
+        self.driver.implicitly_wait(seconds)
+        log.info("wait for %d seconds." % seconds)
+
+    def move_to_element(self, contentA, contentB):
+        self.driver.ActionChains(self.driver).move_to_element(contentA).click(contentB).perform()
+
+    def capture_element(self, locator):
+        """元素截图"""
+        self.find_element(locator).screenshot(r'./screen_capture/capture_code.png')
+        log.info("Capture element to /page_object/")
+
+    def capture_OCR(self):
+        from tools.baidu_aip import identify_words 
+        r = identify_words()
+        return r
 
 if __name__ == "__main__":
     pass

@@ -3,7 +3,7 @@
 from page.webpage import WebPage, sleep
 from common.readelement import Element
 
-login = Element('login')
+login = Element('login_bilibili')
 
 class LoginPage(WebPage):
     "登录类"
@@ -24,7 +24,7 @@ class LoginPage(WebPage):
     def click_login_button(self):
         self.is_click(login['login_button'])
         sleep()
-        
+
     def input_verify_code(self):
         """input verify code"""
         self.capture_element(login['验证码'])

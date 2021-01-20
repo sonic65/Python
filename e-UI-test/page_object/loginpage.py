@@ -3,7 +3,7 @@
 from page.webpage import WebPage, sleep
 from common.readelement import Element
 
-login = Element('login')
+login = Element('login_xhb')
 
 class LoginPage(WebPage):
     "登录类"

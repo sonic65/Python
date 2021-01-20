@@ -11,14 +11,14 @@ class SimpleIOSTests(unittest.TestCase):
 
     def setUp(self):
         # set up appium
-        app = os.path.abspath('./sample-code/sample-code/apps/TestApp/build/release-iphonesimulator/TestApp-iphonesimulator.app')
+        app = os.path.abspath(r'./sample-code/sample-code/apps/TestApp/build/release-iphonesimulator/TestApp-iphonesimulator.app')
         self.driver = webdriver.Remote(
             command_executor='http://127.0.0.1:4723/wd/hub',
             desired_capabilities={
                 'app': app,
                 'platformName': 'iOS',
                 'platformVersion': '14.3',
-                'deviceName': 'iPhone 12'
+                'deviceName': 'iPhone 11'
             })
 
     def tearDown(self):
