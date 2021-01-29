@@ -1,5 +1,0 @@
-pytest
-allure
-xlrd
-xlwt
-xlutils

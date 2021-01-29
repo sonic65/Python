@@ -1,6 +1,6 @@
 import csv
 
-filename='/Users/gaoyuhang/work/list.csv'
+filename='/Users/gaoyuhang/Project/Python/work/list.csv'
 
 f=open(filename)
 

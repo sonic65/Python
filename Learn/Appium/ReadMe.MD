@@ -28,11 +28,22 @@ brew install carthage
    - 查看真机列表：idevice_id -l
    - 安装App：ideviceinstaller -i demo.app
 
-## webdriverAgent
-git clone https://github.com/facebook/WebDriverAgent
-cd WebDriverAgent
-sh ./Scripts/bootstrap.sh
-安装Agent https://www.cnblogs.com/meitian/p/7359787.html
+## WebDriverAgent
+git clone https://github.com/appium/WebDriverAgent.git
+
+ - cd WebDriverAgent
+ - mkdir -p Resources/WebDriverAgent.bundle
+ - sh ./Scripts/bootstrap.sh
+  修改Product Bundle Identifier为唯一  如：com.sonic.WebDriverAgentLib
+
+安装Agent https://blog.csdn.net/qq_41030861/article/details/110528139
+
+> 常见错误：
+1.'RoutingHTTPServer/RoutingConnection.h' file not found while building webDriverAgent project in Xcode
+到WebDriverAgent的根目录下 执行 bash Scripts/bootstrap.sh -d
+2.WebDriverAgent.bundle: No such file or directory
+到WebDriverAgent的根目录下 执行./Scripts/bootstrap.sh（作用：安装依赖库，同时使用npm 打包响应的js 文件）
+
 
 # Android SDK Tools
 https://www.cnblogs.com/nebie/p/9145627.html
