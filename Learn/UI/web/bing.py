@@ -21,6 +21,8 @@ class HomePage():
         time.sleep(5)
 
         driver.find_element_by_xpath('//*[@id="sb_form_q"]').send_keys("333")
+        driver.find_element_by_xpath('//*[@id="sb_form_q"]').clear()
+       
         time.sleep(2)
         c = driver.find_element_by_xpath('//*[@id="sb_form_go"]')
         c.click()
